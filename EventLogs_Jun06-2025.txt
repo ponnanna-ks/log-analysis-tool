@@ -1,0 +1,1096 @@
+7:02:38 AM | INFO : 07:02:38:799  - MainScreen  - pingStation  - No host available for Clockwise of station: 1 
+7:02:38 AM | INFO : 07:02:38:806  - MainScreen  - Auto Scanning Network every 60 seconds"  - 
+undefined
+
+7:02:38 AM | INFO : 07:02:38:808  - Checkinternet  - useEffect  - Triggering syncData every 30 minutes 
+7:02:38 AM | INFO : 07:02:38:808  - CheckInternet  - syncData  - syncData function called 
+7:02:38 AM | INFO : 07:02:38:809  - CheckInternet  - syncData  - SYNCING STARTED : 1 
+7:02:38 AM | INFO : 07:02:38:810  - MainScreen  - pingStation  - Pinging CounterClockwise of station 1 at URL: http://192.168.30.115:7011/commCheck 
+7:02:38 AM | INFO : 07:02:38:902  - MainScreen  - autoScaningEvery60Sec  - getIPV4Address > ipv4Address >192.168.30.244 
+7:02:38 AM | INFO : 07:02:38:903  - api-service  - getIpRangeFromAddressAndNetmask  -  networkInfo :192.168.30.244 
+7:02:38 AM | INFO : 07:02:38:903  - MainScreen  - autoScaningEvery60Sec  -  getIpRangeFromAddressAndNetmask ipAddress>>192.168.30.244 
+7:02:38 AM | INFO : 07:02:38:905  - CheckInternet  - SyncData  - Syncing data for project ID: 1 
+7:02:38 AM | INFO : 07:02:38:906  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:914  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+7:02:38 AM | INFO : 07:02:38:919  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+7:02:38 AM | INFO : 07:02:38:931  - MainScreen  - pingStation  - CounterClockwise of station 1 is live at 192.168.30.115 
+7:02:38 AM | INFO : 07:02:38:932  - MainScreen  - pingStation  - 1 has at least one active bug. 
+7:02:38 AM | INFO : 07:02:38:932  - MainScreen  - pingStation  - Pinging Clockwise of station 2 at URL: http://192.168.30.242:7011/commCheck 
+7:02:38 AM | INFO : 07:02:38:945  - CloudData  - syncProjects  - No syncProjects data with 'cloud_sync' status pending. Sync operation aborted. 
+7:02:38 AM | INFO : 07:02:38:946  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:953  - CloudData  - syncSlogs  - No syncSlogs with 'cloud_sync' status pending. Sync operation completed. 
+7:02:38 AM | INFO : 07:02:38:953  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:954  - CloudData  - syncS_logStatus  - No syncS_logStatus with 'cloud_sync' status pending. Sync operation completed. 
+7:02:38 AM | INFO : 07:02:38:955  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:956  - CloudData  - syncTableLimits  - No syncTableLimits with 'cloud_sync' status pending. Sync operation aborted. 
+7:02:38 AM | INFO : 07:02:38:956  - CloudData  - syncTableLimits  - COMPLETED: 0 records 
+7:02:38 AM | INFO : 07:02:38:957  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:962  - MainScreen  - pingStation  - Clockwise of station 2 is live at 192.168.30.242 
+7:02:38 AM | INFO : 07:02:38:962  - MainScreen  - pingStation  - Pinging CounterClockwise of station 2 at URL: http://192.168.30.135:7011/commCheck 
+7:02:38 AM | INFO : 07:02:38:969  - CloudData  - syncAvgTLog ===  - No syncAvgTLog with 'cloud_sync' status pending. Sync operation aborted. 
+7:02:38 AM | INFO : 07:02:38:969  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:979  - CloudData  - syncTiltViewLogs  - No syncTiltViewLogs with 'cloud_sync' status pending. Sync operation aborted. 
+7:02:38 AM | INFO : 07:02:38:979  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:38 AM | INFO : 07:02:38:993  - MainScreen  - pingStation  - CounterClockwise of station 2 is live at 192.168.30.135 
+7:02:38 AM | INFO : 07:02:38:994  - MainScreen  - pingStation  - 2 has at least one active bug. 
+7:02:38 AM | INFO : 07:02:38:994  - MainScreen  - pingStation  - Pinging Clockwise of station 3 at URL: http://192.168.30.225:7011/commCheck 
+7:02:39 AM | INFO : 07:02:39:019  - MainScreen  - pingStation  - Clockwise of station 3 is live at 192.168.30.225 
+7:02:39 AM | INFO : 07:02:39:020  - MainScreen  - pingStation  - No host available for CounterClockwise of station: 3 
+7:02:39 AM | INFO : 07:02:39:020  - MainScreen  - pingStation  - 3 has at least one active bug. 
+7:02:39 AM | INFO : 07:02:39:020  - MainScreen  - pingStation  - Pinging Clockwise of station 4 at URL: http://192.168.30.238:7011/commCheck 
+7:02:39 AM | INFO : 07:02:39:030  - CloudData  - syncTlogs  - No syncTlogs with 'cloud_sync' status pending. Sync operation completed. 
+7:02:39 AM | INFO : 07:02:39:031  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:02:39 AM | INFO : 07:02:39:032  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+7:02:39 AM | INFO : 07:02:39:032  - CloudData  - syncWeldParameter  - No WeldParameter with 'cloud_sync' status pending. Sync operation aborted. 
+7:02:39 AM | INFO : 07:02:39:032  - CheckInternet  - fetchData  - fetchData function called 
+7:02:39 AM | INFO : 07:02:39:033  - CheckInternet  - fetchData  - START, FROM=true 
+7:02:39 AM | INFO : 07:02:39:043  - MainScreen  - pingStation  - Clockwise of station 4 is live at 192.168.30.238 
+7:02:39 AM | INFO : 07:02:39:043  - MainScreen  - pingStation  - Pinging CounterClockwise of station 4 at URL: http://192.168.30.174:7011/commCheck 
+7:02:39 AM | INFO : 07:02:39:088  - MainScreen  - pingStation  - CounterClockwise of station 4 is live at 192.168.30.174 
+7:02:39 AM | INFO : 07:02:39:088  - MainScreen  - pingStation  - 4 has at least one active bug. 
+7:02:39 AM | INFO : 07:02:39:117  - MainScreen  - liveStations useEffect  - updating Station data 
+7:02:39 AM | INFO : 07:02:39:134  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:02:39 AM | INFO : 07:02:39:156  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+7:02:39 AM | INFO : 07:02:39:157  - CheckInternet  - fetchData  - Data sync state: true 
+7:02:39 AM | INFO : 07:02:39:157  - CheckInternet  - fetchData  - SETTING: DONE 
+7:02:39 AM | INFO : 07:02:39:160  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"DONE"} 
+7:02:39 AM | INFO : 07:02:39:163  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+7:02:39 AM | INFO : 07:02:39:366  - CustomSiderbarMenu  - appStateListener  - active 
+7:02:39 AM | INFO : 07:02:39:367  - MainScreen  - handleAppStateChange  - appState : background, nextAppState : active 
+7:02:39 AM | INFO : 07:02:39:390  - CustomSidebarMenu  - checkAndTriggerUploads  - START 
+7:02:39 AM | INFO : 07:02:39:390  - CustomSidebarMenu  - checkAndTriggerUploads  - Attempting db upload 
+7:02:39 AM | INFO : 07:02:39:395  - CustomSideBarMenu  - handleUploadDb  - UPLOAD DB START 
+7:02:39 AM | INFO : 07:02:39:396  - CustomSiderbarMenu  - appStateListener  - inactive 
+7:02:39 AM | INFO : 07:02:39:396  - MainScreen  - handleAppStateChange  - appState : active, nextAppState : inactive 
+7:02:39 AM | INFO : 07:02:39:411  - CustomSideBarMenu  - handleUploadDb  - UPLOAD DB START 
+7:02:39 AM | INFO : 07:02:39:412  - db-upload-service  - generateUniqueFileName  - FolderName: iPad_DCD00D 
+7:02:39 AM | INFO : 07:02:39:413  - db-upload-service  - MultipartUpload  - FileName: staging/iPad_DCD00D/db/2025-06-06_07:02:39:409.db 
+7:02:39 AM | INFO : 07:02:39:418  - db-upload-service  - generateUniqueFileName  - FolderName: iPad_DCD00D 
+7:02:39 AM | INFO : 07:02:39:418  - db-upload-service  - MultipartUpload  - FileName: staging/iPad_DCD00D/log/2025-06-06_07:02:39:416.txt 
+7:02:41 AM | INFO : 07:02:41:627  - CustomSiderbarMenu  - appStateListener  - active 
+7:02:41 AM | INFO : 07:02:41:628  - MainScreen  - handleAppStateChange  - appState : inactive, nextAppState : active 
+7:02:41 AM | INFO : 07:02:41:654  - CustomSidebarMenu  - checkAndTriggerUploads  - START 
+7:02:41 AM | INFO : 07:02:41:723  - api-service  - getIpRangeFromAddressAndNetmask  - data :[{"ip":"192.168.30.115","port":7011},{"ip":"192.168.30.135","port":7011},{"ip":"192.168.30.174","port":7011},{"ip":"192.168.30.201","port":7011},{"ip":"192.168.30.224","port":7011},{"ip":"192.168.30.225","port":7011},{"ip":"192.168.30.238","port":7011},{"ip":"192.168.30.242","port":7011}] 
+7:02:41 AM | INFO : 07:02:41:724  - api-service  - getIpRangeFromAddressAndNetmask  - liveStationData : [{"ip":"192.168.30.115","port":7011},{"ip":"192.168.30.135","port":7011},{"ip":"192.168.30.174","port":7011},{"ip":"192.168.30.201","port":7011},{"ip":"192.168.30.224","port":7011},{"ip":"192.168.30.225","port":7011},{"ip":"192.168.30.238","port":7011},{"ip":"192.168.30.242","port":7011}] 
+7:02:41 AM | INFO : 07:02:41:779  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:783  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:789  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:793  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:799  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:800  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:846  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:852  - api-service  - getWeldSystem  - P600Z 
+7:02:41 AM | INFO : 07:02:41:852  - api-service  - getIpRangeFromAddressAndNetmask  - TempData: [{"host":"192.168.30.115","Station":"1","BugType":"Counterclockwise","BugNum":"","serverID":"25013149","tempTime":"2025-06-06T12:02:41+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.135","Station":"2","BugType":"Counterclockwise","BugNum":"","serverID":"25011402","tempTime":"2025-06-06T12:02:52+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.174","Station":"4","BugType":"Counterclockwise","BugNum":"","serverID":"24031233","tempTime":"2025-06-06T12:02:07+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.201","Station":"1","BugType":"Clockwise","BugNum":"","serverID":"25060500","tempTime":"Welding bug not ready.\n","weldSystemData":"P600Z"},{"host":"192.168.30.224","Station":"3","BugType":"Clockwise","BugNum":"","serverID":"25011459","tempTime":"2025-06-06T12:02:38+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.225","Station":"3","BugType":"Counterclockwise","BugNum":"","serverID":"25011452","tempTime":"2025-06-06T12:01:44+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.238","Station":"4","BugType":"Clockwise","BugNum":"","serverID":"25011413","tempTime":"2025-06-06T12:02:17+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.242","Station":"2","BugType":"Clockwise","BugNum":"","serverID":"25011428","tempTime":"2025-06-06T12:02:51+00:00","weldSystemData":"P600Z"}] 
+7:02:41 AM | INFO : 07:02:41:853  - api-service  - getIpRangeFromAddressAndNetmask  - liveStationArray [] 
+7:02:41 AM | ERROR : 07:02:41:895  - api-service  - wrongData  - 
+{
+  "length": 0
+}
+
+7:02:41 AM | INFO : 07:02:41:895  - api-service  - storeData  - Selected Welding System: P600Z,IWM 
+7:02:41 AM | INFO : 07:02:41:895  - api-service  - storeData  - filtered final data: [{"title":"1","BugTypeClockWise":{"host":"192.168.30.201","Station":"1","BugType":"Clockwise","BugNum":"","serverID":"25060500","tempTime":"Welding bug not ready.\n","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.115","Station":"1","BugType":"Counterclockwise","BugNum":"","serverID":"25013149","tempTime":"2025-06-06T12:02:41+00:00","weldSystemData":"P600Z"}},{"title":"2","BugTypeClockWise":{"host":"192.168.30.242","Station":"2","BugType":"Clockwise","BugNum":"","serverID":"25011428","tempTime":"2025-06-06T12:02:51+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.135","Station":"2","BugType":"Counterclockwise","BugNum":"","serverID":"25011402","tempTime":"2025-06-06T12:02:52+00:00","weldSystemData":"P600Z"}},{"title":"3","BugTypeClockWise":{"host":"192.168.30.224","Station":"3","BugType":"Clockwise","BugNum":"","serverID":"25011459","tempTime":"2025-06-06T12:02:38+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.225","Station":"3","BugType":"Counterclockwise","BugNum":"","serverID":"25011452","tempTime":"2025-06-06T12:01:44+00:00","weldSystemData":"P600Z"}},{"title":"4","BugTypeClockWise":{"host":"192.168.30.238","Station":"4","BugType":"Clockwise","BugNum":"","serverID":"25011413","tempTime":"2025-06-06T12:02:17+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.174","Station":"4","BugType":"Counterclockwise","BugNum":"","serverID":"24031233","tempTime":"2025-06-06T12:02:07+00:00","weldSystemData":"P600Z"}}] 
+7:02:41 AM | INFO : 07:02:41:908  - MainScreen  - liveStations useEffect  - updating Station data 
+7:02:41 AM | INFO : 07:02:41:922  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:02:42 AM | INFO : 07:02:42:437  - CustomSiderbarMenu  - appStateListener  - inactive 
+7:02:42 AM | INFO : 07:02:42:437  - MainScreen  - handleAppStateChange  - appState : active, nextAppState : inactive 
+7:02:43 AM | INFO : 07:02:43:052  - db-upload-service  - initiateUpload  - From : db uploadId: h6m4hHF1Rj6xRJzFCdq.1E8ahArTuJY95sXy1tAzDwlcNwSQIwAVieWlnHRUM_V_miSzT6nLz1ZOYNmVat9eASyoTXbc9RmlAVk20TMJS8S6mHIPbnrTCxsLlngn5HtV, url len: 23 
+7:02:43 AM | INFO : 07:02:43:057  - db-upload-service  - initiateUpload  - From : log uploadId: i5r4QPLm8bf09gE4Z4AGVaQw95Z3UuXkRz9IcySminvURROkT1rp_tklgILiUPtqISvGM85emnP_FK0bHI.PWadzocqHPEDk6N4RrJbx4BfiD7pZPEnV0hsPzbR9F5ET, url len: 1 
+7:02:53 AM | INFO : 07:02:53:400  - CustomSiderbarMenu  - appStateListener  - background 
+7:02:53 AM | INFO : 07:02:53:401  - MainScreen  - handleAppStateChange  - appState : inactive, nextAppState : background 
+7:02:53 AM | INFO : 07:02:53:427  - CustomSiderbarMenu  - appStateListener  - active 
+7:02:53 AM | INFO : 07:02:53:427  - MainScreen  - handleAppStateChange  - appState : background, nextAppState : active 
+7:02:53 AM | INFO : 07:02:53:481  - CustomSidebarMenu  - checkAndTriggerUploads  - START 
+7:02:54 AM | INFO : 07:02:54:028  - db-upload-service  - handleUpload  - From : log Part : 1 uploaded successfully 
+7:02:54 AM | INFO : 07:02:54:541  - db-upload-service  - handleUpload  - From : log Completion response: {"success":1,"message":"Data fetched successfully","status":200,"data":{"response":{"ServerSideEncryption":"AES256","Location":"https://data360-app-database.s3.us-west-2.amazonaws.com/staging%2FiPad_DCD00D%2Flog%2F2025-06-06_07%3A02%3A39%3A416.txt","Bucket":"data360-app-database","Key":"staging/iPad_DCD00D/log/2025-06-06_07:02:39:416.txt","ETag":"\"e164b80235050afcf246b4d87e827999-1\""}}} 
+7:02:55 AM | INFO : 07:02:55:808  - api-service  - getIpRangeFromAddressAndNetmask  - data :[{"ip":"192.168.30.115","port":7011},{"ip":"192.168.30.135","port":7011},{"ip":"192.168.30.174","port":7011},{"ip":"192.168.30.201","port":7011},{"ip":"192.168.30.224","port":7011},{"ip":"192.168.30.225","port":7011},{"ip":"192.168.30.238","port":7011},{"ip":"192.168.30.242","port":7011}] 
+7:02:55 AM | INFO : 07:02:55:810  - api-service  - getIpRangeFromAddressAndNetmask  - liveStationData : [{"ip":"192.168.30.115","port":7011},{"ip":"192.168.30.135","port":7011},{"ip":"192.168.30.174","port":7011},{"ip":"192.168.30.201","port":7011},{"ip":"192.168.30.224","port":7011},{"ip":"192.168.30.225","port":7011},{"ip":"192.168.30.238","port":7011},{"ip":"192.168.30.242","port":7011}] 
+7:02:55 AM | INFO : 07:02:55:900  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:901  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:903  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:903  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:903  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:914  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:945  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:945  - api-service  - getWeldSystem  - P600Z 
+7:02:55 AM | INFO : 07:02:55:945  - api-service  - getIpRangeFromAddressAndNetmask  - TempData: [{"host":"192.168.30.115","Station":"1","BugType":"Counterclockwise","BugNum":"","serverID":"25013149","tempTime":"2025-06-06T12:02:55+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.135","Station":"2","BugType":"Counterclockwise","BugNum":"","serverID":"25011402","tempTime":"2025-06-06T12:03:06+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.174","Station":"4","BugType":"Counterclockwise","BugNum":"","serverID":"24031233","tempTime":"2025-06-06T12:02:21+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.201","Station":"1","BugType":"Clockwise","BugNum":"","serverID":"25060500","tempTime":"Welding bug not ready.\n","weldSystemData":"P600Z"},{"host":"192.168.30.224","Station":"3","BugType":"Clockwise","BugNum":"","serverID":"25011459","tempTime":"2025-06-06T12:02:52+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.225","Station":"3","BugType":"Counterclockwise","BugNum":"","serverID":"25011452","tempTime":"2025-06-06T12:01:58+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.238","Station":"4","BugType":"Clockwise","BugNum":"","serverID":"25011413","tempTime":"2025-06-06T12:02:31+00:00","weldSystemData":"P600Z"},{"host":"192.168.30.242","Station":"2","BugType":"Clockwise","BugNum":"","serverID":"25011428","tempTime":"2025-06-06T12:03:05+00:00","weldSystemData":"P600Z"}] 
+7:02:55 AM | INFO : 07:02:55:946  - api-service  - getIpRangeFromAddressAndNetmask  - liveStationArray [] 
+7:02:55 AM | ERROR : 07:02:55:984  - api-service  - wrongData  - 
+{
+  "length": 0
+}
+
+7:02:55 AM | INFO : 07:02:55:984  - api-service  - storeData  - Selected Welding System: P600Z,IWM 
+7:02:55 AM | INFO : 07:02:55:985  - api-service  - storeData  - filtered final data: [{"title":"1","BugTypeClockWise":{"host":"192.168.30.201","Station":"1","BugType":"Clockwise","BugNum":"","serverID":"25060500","tempTime":"Welding bug not ready.\n","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.115","Station":"1","BugType":"Counterclockwise","BugNum":"","serverID":"25013149","tempTime":"2025-06-06T12:02:55+00:00","weldSystemData":"P600Z"}},{"title":"2","BugTypeClockWise":{"host":"192.168.30.242","Station":"2","BugType":"Clockwise","BugNum":"","serverID":"25011428","tempTime":"2025-06-06T12:03:05+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.135","Station":"2","BugType":"Counterclockwise","BugNum":"","serverID":"25011402","tempTime":"2025-06-06T12:03:06+00:00","weldSystemData":"P600Z"}},{"title":"3","BugTypeClockWise":{"host":"192.168.30.224","Station":"3","BugType":"Clockwise","BugNum":"","serverID":"25011459","tempTime":"2025-06-06T12:02:52+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.225","Station":"3","BugType":"Counterclockwise","BugNum":"","serverID":"25011452","tempTime":"2025-06-06T12:01:58+00:00","weldSystemData":"P600Z"}},{"title":"4","BugTypeClockWise":{"host":"192.168.30.238","Station":"4","BugType":"Clockwise","BugNum":"","serverID":"25011413","tempTime":"2025-06-06T12:02:31+00:00","weldSystemData":"P600Z"},"BugTypeCounterClockWise":{"host":"192.168.30.174","Station":"4","BugType":"Counterclockwise","BugNum":"","serverID":"24031233","tempTime":"2025-06-06T12:02:21+00:00","weldSystemData":"P600Z"}}] 
+7:02:56 AM | INFO : 07:02:56:004  - MainScreen  - liveStations useEffect  - updating Station data 
+7:02:56 AM | INFO : 07:02:56:019  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:02:59 AM | INFO : 07:02:59:991  - db-upload-service  - handleUpload  - From : db Part : 1 uploaded successfully 
+7:03:02 AM | INFO : 07:03:02:853  - mainScreen  - performActionOnSelectedDevices  - Action Selected 
+7:03:02 AM | INFO : 07:03:02:885  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:02 AM | INFO : 07:03:02:921  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:02 AM | INFO : 07:03:02:937  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:02 AM | INFO : 07:03:02:938  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:03 AM | INFO : 07:03:03:306  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:0 
+7:03:03 AM | INFO : 07:03:03:389  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:315 
+7:03:03 AM | INFO : 07:03:03:438  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:165 
+7:03:03 AM | INFO : 07:03:03:506  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:150 
+7:03:03 AM | INFO : 07:03:03:554  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:160 
+7:03:03 AM | INFO : 07:03:03:605  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:148 
+7:03:03 AM | INFO : 07:03:03:633  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:0 
+7:03:03 AM | INFO : 07:03:03:668  - log-service  - getTotalCountFromSocket  - ">>> Error getTotalCountFromSocket:0 
+7:03:03 AM | INFO : 07:03:03:734  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:03 AM | INFO : 07:03:03:757  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:03 AM | INFO : 07:03:03:801  - log-service  - socket onopen  - >>> e.data: 0 
+7:03:03 AM | INFO : 07:03:03:816  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:03 AM | INFO : 07:03:03:833  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:03 AM | INFO : 07:03:03:847  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:03 AM | INFO : 07:03:03:869  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:03 AM | INFO : 07:03:03:934  - log-service  - socket onopen  - >>> e.data: 315 
+7:03:03 AM | INFO : 07:03:03:934  - log-service  - getLogs  - START 
+7:03:04 AM | INFO : 07:03:04:079  - logsToDbHelper  - parseLogs  - START 
+7:03:04 AM | INFO : 07:03:04:092  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:03:04 AM | INFO : 07:03:04:101  - logsToDbHelper  - setNumberOfUnknownWeldsByProject  - Updated, Rows affected: 1 
+7:03:04 AM | INFO : 07:03:04:102  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:03:04 AM | INFO : 07:03:04:119  - log-service  - saveAllLogs  - START 
+7:03:04 AM | INFO : 07:03:04:119  - MainScreen  - liveStations useEffect  - updating Station data 
+7:03:04 AM | INFO : 07:03:04:172  - log-service  - saveSLogs  - END-counter 
+7:03:04 AM | INFO : 07:03:04:199  - log-service  - saveTLogs  - END-counter 
+7:03:04 AM | INFO : 07:03:04:226  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:03:04 AM | INFO : 07:03:04:236  - log-service  - saveAvgTLogs  - END-counter 
+7:03:04 AM | INFO : 07:03:04:238  - log-service  - insertJobNumberToTLogs  - START 
+7:03:04 AM | INFO : 07:03:04:238  - log-service  - insertJobNumberToAvgTLogs  - START 
+7:03:04 AM | INFO : 07:03:04:250  - log-service  - saveTiltViewLogs  - END-counter 
+7:03:11 AM | INFO : 07:03:11:448  - db-upload-service  - handleUpload  - From : db Part : 2 uploaded successfully 
+7:03:15 AM | INFO : 07:03:15:310  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:03:23 AM | INFO : 07:03:23:408  - db-upload-service  - handleUpload  - From : db Part : 3 uploaded successfully 
+7:03:34 AM | INFO : 07:03:34:786  - db-upload-service  - handleUpload  - From : db Part : 4 uploaded successfully 
+7:03:45 AM | INFO : 07:03:45:883  - db-upload-service  - handleUpload  - From : db Part : 5 uploaded successfully 
+7:03:58 AM | INFO : 07:03:58:211  - db-upload-service  - handleUpload  - From : db Part : 6 uploaded successfully 
+7:04:08 AM | INFO : 07:04:08:192  - db-upload-service  - handleUpload  - From : db Part : 7 uploaded successfully 
+7:04:24 AM | INFO : 07:04:24:300  - db-upload-service  - handleUpload  - From : db Part : 8 uploaded successfully 
+7:04:38 AM | INFO : 07:04:38:717  - db-upload-service  - handleUpload  - From : db Part : 9 uploaded successfully 
+7:04:50 AM | INFO : 07:04:50:888  - db-upload-service  - handleUpload  - From : db Part : 10 uploaded successfully 
+7:05:02 AM | INFO : 07:05:02:360  - db-upload-service  - handleUpload  - From : db Part : 11 uploaded successfully 
+7:05:14 AM | INFO : 07:05:14:628  - db-upload-service  - handleUpload  - From : db Part : 12 uploaded successfully 
+7:05:28 AM | INFO : 07:05:28:168  - db-upload-service  - handleUpload  - From : db Part : 13 uploaded successfully 
+7:05:44 AM | INFO : 07:05:44:050  - db-upload-service  - handleUpload  - From : db Part : 14 uploaded successfully 
+7:05:56 AM | INFO : 07:05:56:435  - db-upload-service  - handleUpload  - From : db Part : 15 uploaded successfully 
+7:06:10 AM | INFO : 07:06:10:346  - db-upload-service  - handleUpload  - From : db Part : 16 uploaded successfully 
+7:06:25 AM | INFO : 07:06:25:400  - db-upload-service  - handleUpload  - From : db Part : 17 uploaded successfully 
+7:06:40 AM | INFO : 07:06:40:332  - db-upload-service  - handleUpload  - From : db Part : 18 uploaded successfully 
+7:06:53 AM | INFO : 07:06:53:561  - db-upload-service  - handleUpload  - From : db Part : 19 uploaded successfully 
+7:07:07 AM | INFO : 07:07:07:976  - db-upload-service  - handleUpload  - From : db Part : 20 uploaded successfully 
+7:07:19 AM | INFO : 07:07:19:591  - db-upload-service  - handleUpload  - From : db Part : 21 uploaded successfully 
+7:07:37 AM | INFO : 07:07:37:937  - db-upload-service  - handleUpload  - From : db Part : 22 uploaded successfully 
+7:07:50 AM | INFO : 07:07:50:833  - db-upload-service  - handleUpload  - From : db Part : 23 uploaded successfully 
+7:07:51 AM | INFO : 07:07:51:517  - db-upload-service  - handleUpload  - From : db Completion response: {"success":1,"message":"Data fetched successfully","status":200,"data":{"response":{"ServerSideEncryption":"AES256","Location":"https://data360-app-database.s3.us-west-2.amazonaws.com/staging%2FiPad_DCD00D%2Fdb%2F2025-06-06_07%3A02%3A39%3A409.db","Bucket":"data360-app-database","Key":"staging/iPad_DCD00D/db/2025-06-06_07:02:39:409.db","ETag":"\"54480da1a821cb62a89bbedb20e21f01-23\""}}} 
+7:08:17 AM | INFO : 07:08:17:302  - log-service  - JOB NUMBER to TLogs  - 
+267872
+
+7:10:08 AM | INFO : 07:10:08:669  - log-service  - JOB NUMBER to AvgTlogs  - 
+66944
+
+7:10:08 AM | INFO : 07:10:08:674  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:10:08 AM | INFO : 07:10:08:675  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:10:08 AM | INFO : 07:10:08:676  - projectMaster-service  - setfreezeWeldingSystemState  - Updated, Rows affected: 1 
+7:10:08 AM | INFO : 07:10:08:826  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 0 
+7:10:08 AM | INFO : 07:10:08:976  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 227 
+7:10:09 AM | INFO : 07:10:09:021  - MainScreen  - liveStations useEffect  - updating Station data 
+7:10:09 AM | INFO : 07:10:09:039  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:10:09 AM | INFO : 07:10:09:123  - log-service  - socket onopen  - >>> e.data: 165 
+7:10:09 AM | INFO : 07:10:09:124  - log-service  - getLogs  - START 
+7:10:09 AM | INFO : 07:10:09:194  - logsToDbHelper  - parseLogs  - START 
+7:10:09 AM | INFO : 07:10:09:203  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:10:09 AM | INFO : 07:10:09:215  - logsToDbHelper  - setNumberOfUnknownWeldsByProject  - Updated, Rows affected: 1 
+7:10:09 AM | INFO : 07:10:09:216  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:10:09 AM | INFO : 07:10:09:235  - log-service  - saveAllLogs  - START 
+7:10:09 AM | INFO : 07:10:09:235  - MainScreen  - liveStations useEffect  - updating Station data 
+7:10:09 AM | INFO : 07:10:09:253  - log-service  - saveSLogs  - END-counter 
+7:10:09 AM | INFO : 07:10:09:258  - log-service  - saveTLogs  - END-counter 
+7:10:09 AM | INFO : 07:10:09:276  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:10:09 AM | INFO : 07:10:09:284  - log-service  - saveAvgTLogs  - END-counter 
+7:10:09 AM | INFO : 07:10:09:285  - log-service  - insertJobNumberToTLogs  - START 
+7:10:09 AM | INFO : 07:10:09:286  - log-service  - insertJobNumberToAvgTLogs  - START 
+7:10:09 AM | INFO : 07:10:09:292  - log-service  - saveTiltViewLogs  - END-counter 
+7:15:00 AM | INFO : 07:15:00:376  - log-service  - JOB NUMBER to TLogs  - 
+267993
+
+7:16:54 AM | INFO : 07:16:54:190  - log-service  - JOB NUMBER to AvgTlogs  - 
+67074
+
+7:16:54 AM | INFO : 07:16:54:191  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:16:54 AM | INFO : 07:16:54:192  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:16:54 AM | INFO : 07:16:54:193  - projectMaster-service  - setfreezeWeldingSystemState  - Updated, Rows affected: 1 
+7:16:54 AM | INFO : 07:16:54:341  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 0 
+7:16:54 AM | INFO : 07:16:54:492  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 348 
+7:16:54 AM | INFO : 07:16:54:521  - MainScreen  - liveStations useEffect  - updating Station data 
+7:16:54 AM | INFO : 07:16:54:546  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:16:54 AM | INFO : 07:16:54:602  - log-service  - socket onopen  - >>> e.data: 150 
+7:16:54 AM | INFO : 07:16:54:602  - log-service  - getLogs  - START 
+7:16:54 AM | INFO : 07:16:54:664  - logsToDbHelper  - parseLogs  - START 
+7:16:54 AM | INFO : 07:16:54:670  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:16:54 AM | INFO : 07:16:54:675  - logsToDbHelper  - setNumberOfUnknownWeldsByProject  - Updated, Rows affected: 1 
+7:16:54 AM | INFO : 07:16:54:675  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:16:54 AM | INFO : 07:16:54:694  - log-service  - saveAllLogs  - START 
+7:16:54 AM | INFO : 07:16:54:695  - MainScreen  - liveStations useEffect  - updating Station data 
+7:16:54 AM | INFO : 07:16:54:720  - log-service  - saveSLogs  - END-counter 
+7:16:54 AM | INFO : 07:16:54:724  - log-service  - saveTLogs  - END-counter 
+7:16:54 AM | INFO : 07:16:54:737  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:16:54 AM | INFO : 07:16:54:749  - log-service  - saveAvgTLogs  - END-counter 
+7:16:54 AM | INFO : 07:16:54:750  - log-service  - insertJobNumberToTLogs  - START 
+7:16:54 AM | INFO : 07:16:54:751  - log-service  - insertJobNumberToAvgTLogs  - START 
+7:16:54 AM | INFO : 07:16:54:757  - log-service  - saveTiltViewLogs  - END-counter 
+7:21:45 AM | INFO : 07:21:45:512  - log-service  - JOB NUMBER to TLogs  - 
+268099
+
+7:23:38 AM | INFO : 07:23:38:654  - log-service  - JOB NUMBER to AvgTlogs  - 
+67194
+
+7:23:38 AM | INFO : 07:23:38:655  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:23:38 AM | INFO : 07:23:38:656  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:23:38 AM | INFO : 07:23:38:657  - projectMaster-service  - setfreezeWeldingSystemState  - Updated, Rows affected: 1 
+7:23:38 AM | INFO : 07:23:38:806  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 0 
+7:23:38 AM | INFO : 07:23:38:957  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 454 
+7:23:38 AM | INFO : 07:23:38:981  - MainScreen  - liveStations useEffect  - updating Station data 
+7:23:39 AM | INFO : 07:23:39:004  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:23:39 AM | INFO : 07:23:39:101  - log-service  - socket onopen  - >>> e.data: 160 
+7:23:39 AM | INFO : 07:23:39:101  - log-service  - getLogs  - START 
+7:23:39 AM | INFO : 07:23:39:481  - logsToDbHelper  - parseLogs  - START 
+7:23:39 AM | INFO : 07:23:39:486  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:23:39 AM | INFO : 07:23:39:498  - logsToDbHelper  - setNumberOfUnknownWeldsByProject  - Updated, Rows affected: 1 
+7:23:39 AM | INFO : 07:23:39:499  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:23:39 AM | INFO : 07:23:39:531  - log-service  - saveAllLogs  - START 
+7:23:39 AM | INFO : 07:23:39:532  - MainScreen  - liveStations useEffect  - updating Station data 
+7:23:39 AM | INFO : 07:23:39:555  - log-service  - saveSLogs  - END-counter 
+7:23:39 AM | INFO : 07:23:39:560  - log-service  - saveTLogs  - END-counter 
+7:23:39 AM | INFO : 07:23:39:571  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:23:39 AM | INFO : 07:23:39:581  - log-service  - saveAvgTLogs  - END-counter 
+7:23:39 AM | INFO : 07:23:39:582  - log-service  - insertJobNumberToTLogs  - START 
+7:23:39 AM | INFO : 07:23:39:583  - log-service  - insertJobNumberToAvgTLogs  - START 
+7:23:39 AM | INFO : 07:23:39:589  - log-service  - saveTiltViewLogs  - END-counter 
+7:28:30 AM | INFO : 07:28:30:679  - log-service  - JOB NUMBER to TLogs  - 
+268213
+
+7:30:22 AM | INFO : 07:30:22:950  - log-service  - JOB NUMBER to AvgTlogs  - 
+67302
+
+7:30:22 AM | INFO : 07:30:22:951  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:30:22 AM | INFO : 07:30:22:952  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:30:22 AM | INFO : 07:30:22:952  - projectMaster-service  - setfreezeWeldingSystemState  - Updated, Rows affected: 1 
+7:30:23 AM | INFO : 07:30:23:101  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 0 
+7:30:23 AM | INFO : 07:30:23:252  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 568 
+7:30:23 AM | INFO : 07:30:23:277  - MainScreen  - liveStations useEffect  - updating Station data 
+7:30:23 AM | INFO : 07:30:23:303  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:30:23 AM | INFO : 07:30:23:356  - log-service  - socket onopen  - >>> e.data: 148 
+7:30:23 AM | INFO : 07:30:23:356  - log-service  - getLogs  - START 
+7:30:23 AM | INFO : 07:30:23:757  - logsToDbHelper  - parseLogs  - START 
+7:30:23 AM | INFO : 07:30:23:761  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:30:23 AM | INFO : 07:30:23:770  - logsToDbHelper  - setNumberOfUnknownWeldsByProject  - Updated, Rows affected: 1 
+7:30:23 AM | INFO : 07:30:23:770  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:30:23 AM | INFO : 07:30:23:798  - log-service  - saveAllLogs  - START 
+7:30:23 AM | INFO : 07:30:23:799  - MainScreen  - liveStations useEffect  - updating Station data 
+7:30:23 AM | INFO : 07:30:23:822  - log-service  - saveSLogs  - END-counter 
+7:30:23 AM | INFO : 07:30:23:827  - log-service  - saveTLogs  - END-counter 
+7:30:23 AM | INFO : 07:30:23:836  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:30:23 AM | INFO : 07:30:23:841  - log-service  - saveAvgTLogs  - END-counter 
+7:30:23 AM | INFO : 07:30:23:842  - log-service  - insertJobNumberToTLogs  - START 
+7:30:23 AM | INFO : 07:30:23:842  - log-service  - insertJobNumberToAvgTLogs  - START 
+7:30:23 AM | INFO : 07:30:23:854  - log-service  - saveTiltViewLogs  - END-counter 
+7:32:38 AM | INFO : 07:32:38:761  - Checkinternet  - useEffect  - Triggering syncData every 30 minutes 
+7:32:38 AM | INFO : 07:32:38:761  - CheckInternet  - syncData  - syncData function called 
+7:32:38 AM | INFO : 07:32:38:762  - CheckInternet  - syncData  - SYNCING STARTED : 1 
+7:35:17 AM | INFO : 07:35:17:483  - log-service  - JOB NUMBER to TLogs  - 
+268315
+
+7:37:10 AM | INFO : 07:37:10:937  - log-service  - JOB NUMBER to AvgTlogs  - 
+67382
+
+7:37:10 AM | INFO : 07:37:10:938  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:37:10 AM | INFO : 07:37:10:939  - CheckInternet  - SyncData  - Syncing data for project ID: 1 
+7:37:10 AM | INFO : 07:37:10:939  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:37:10 AM | INFO : 07:37:10:945  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+7:37:10 AM | INFO : 07:37:10:950  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+7:37:10 AM | INFO : 07:37:10:953  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:37:10 AM | INFO : 07:37:10:956  - projectMaster-service  - setfreezeWeldingSystemState  - Updated, Rows affected: 1 
+7:37:11 AM | INFO : 07:37:11:108  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 0 
+7:37:11 AM | INFO : 07:37:11:259  - log-service  - checkTLogsExistenceNotCalculated  - Rowcount: 670 
+7:37:11 AM | INFO : 07:37:11:288  - MainScreen  - liveStations useEffect  - updating Station data 
+7:37:11 AM | INFO : 07:37:11:308  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:37:11 AM | INFO : 07:37:11:351  - log-service  - socket onopen  - >>> e.data: 0 
+7:37:11 AM | INFO : 07:37:11:371  - MainScreen  - liveStations useEffect  - updating Station data 
+7:37:11 AM | INFO : 07:37:11:389  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:37:11 AM | INFO : 07:37:11:410  - MainScreen  - liveStations useEffect  - updating Station data 
+7:37:11 AM | INFO : 07:37:11:427  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:37:11 AM | INFO : 07:37:11:498  - log-service  - socket onopen  - >>> e.data: 0 
+7:37:11 AM | INFO : 07:37:11:514  - MainScreen  - liveStations useEffect  - updating Station data 
+7:37:11 AM | INFO : 07:37:11:535  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+7:37:11 AM | INFO : 07:37:11:536  - projectMaster-service  - welding_system  -   [{"welding_system":"{\"P600Z\":true,\"P625\":false}"}] 
+7:37:11 AM | INFO : 07:37:11:536  - projectMaster-service  - weldAssignmentType  -   [{"weldAssignmentType":"BAR"}] 
+7:37:11 AM | INFO : 07:37:11:558  - Error Banner  - getErrorList  - Errorr banner list length:0 
+7:37:11 AM | INFO : 07:37:11:558  - LogDataFilter  - isLogDataOpen, [isLogDataOpen, processing] useEffect  - isLogDataOpen Flag: false,isProcessing Flag: false 
+7:37:11 AM | INFO : 07:37:11:558  - LogDataFilter  - [] useEffect   - NoDataAvailable Flag: nullisLoading Flag: false 
+7:37:11 AM | INFO : 07:37:11:559  - LogDataFilter  - getWeldParameter  - IsLoading: false 
+7:37:11 AM | INFO : 07:37:11:559  - LogDataFilter  - getWeldParameter()  - Start 
+7:37:11 AM | INFO : 07:37:11:559  - LogDataFilter  - projectLogsData useEffect  - selectedProject Id : 1 
+7:37:11 AM | INFO : 07:37:11:559  - LogDataFilter  - selectedProjectId useEffect  - selectedProject Id: 1 
+7:37:11 AM | INFO : 07:37:11:562  - Error Banner  - getErrorList  - Errorr banner list length:0 
+7:37:11 AM | INFO : 07:37:11:563  - LogDataFilter  - retrieveCheckedItems  - parsedCheckedItem: [object Object] 
+7:37:11 AM | INFO : 07:37:11:909  - CalculatingStatusModal  - startCalculating  - Start 
+7:37:11 AM | INFO : 07:37:11:924  - MainScreen  - useEffect shouldDownloadLogs  - new logs available, reloading log data screen. shouldDownloadLogs Flag>>true 
+7:37:11 AM | INFO : 07:37:11:949  - Error Banner  - getErrorList  - Errorr banner list length:0 
+7:37:11 AM | INFO : 07:37:11:949  - LogDataFilter  - isLogDataOpen, [isLogDataOpen, processing] useEffect  - isLogDataOpen Flag: false,isProcessing Flag: false 
+7:37:11 AM | INFO : 07:37:11:950  - LogDataFilter  - [] useEffect   - NoDataAvailable Flag: nullisLoading Flag: false 
+7:37:11 AM | INFO : 07:37:11:951  - LogDataFilter  - getWeldParameter  - IsLoading: false 
+7:37:11 AM | INFO : 07:37:11:951  - LogDataFilter  - getWeldParameter()  - Start 
+7:37:11 AM | INFO : 07:37:11:951  - LogDataFilter  - projectLogsData useEffect  - selectedProject Id : 1 
+7:37:11 AM | INFO : 07:37:11:951  - LogDataFilter  - selectedProjectId useEffect  - selectedProject Id: 1 
+7:37:11 AM | INFO : 07:37:11:952  - Error Banner  - getErrorList  - Errorr banner list length:0 
+7:37:11 AM | INFO : 07:37:11:954  - LogDataFilter  - retrieveCheckedItems  - parsedCheckedItem: [object Object] 
+7:37:14 AM | INFO : 07:37:14:053  - ProjectMaster-service  - updateWeldsCompletedForProject  - rows affected:undefined 
+7:37:14 AM | INFO : 07:37:14:059  - ProjectDetails  - useEffect  - WeldingSystem: "{\"P600Z\":true,\"P625\":false}" 
+7:37:14 AM | INFO : 07:37:14:286  - CloudData  - syncProjects  - project_table Sync operation completed successfully. 
+7:37:14 AM | INFO : 07:37:14:286  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"DONE"} 
+7:37:14 AM | INFO : 07:37:14:290  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+7:37:14 AM | INFO : 07:37:14:290  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:37:14 AM | INFO : 07:37:14:294  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+7:37:14 AM | INFO : 07:37:14:298  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+7:37:16 AM | INFO : 07:37:16:110  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:37:16 AM | INFO : 07:37:16:110  - CloudData  - isProjectDataSyncedToCloud  - PROJECTS PENDING: 1 
+7:37:16 AM | INFO : 07:37:16:255  - log-service  - checkTLogsExistenceByProjectId  - Rowcount: 268315 
+7:37:16 AM | INFO : 07:37:16:256  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+7:37:16 AM | INFO : 07:37:16:466  - CalculatingStatusModal  - startCalculating  - tLogsPresent: true 
+7:37:16 AM | INFO : 07:37:16:480  - CalculatingStatusModal  - startCalculating  - WeldParameters: true 
+7:37:16 AM | INFO : 07:37:16:486  - CalculatingStatusModal  - startCalculating  - dbHelper-start 
+7:37:16 AM | INFO : 07:37:16:487  - log-service  - dbHelper  - tableLimits: Edit param: false 
+7:37:16 AM | INFO : 07:37:16:494  - CalculatingStatusModal  - startCalculating  - End 
+7:37:16 AM | INFO : 07:37:16:502  - log-service  - setIncompleteFlagTRecords  - Start 
+7:37:16 AM | INFO : 07:37:16:539  - CloudData  - SyncSLogs  - SLOG DONE: 50 
+7:37:17 AM | INFO : 07:37:17:330  - log-service  - setIncompleteFlagTRecords  - Updated in clear, Rows affected: 268315 
+7:37:17 AM | INFO : 07:37:17:330  - log-service  - setIncompleteFlagTRecords  - Updated, Rows affected : 58144 
+7:37:17 AM | INFO : 07:37:17:330  - log-service  - setIncompleteFlagTRecords  - Updated in s_logs, Rows affected: 5254 
+7:37:17 AM | INFO : 07:37:17:449  - log-service  - updateLeadPassNameActualFromTableLimits  - Start 
+7:37:17 AM | INFO : 07:37:17:449  - log-service  - updateTrailPassNameActualFromTableLimits  - Start 
+7:37:17 AM | INFO : 07:37:17:588  - log-service  - updateLeadPassNameActualFromTableLimits  - Success 
+7:37:17 AM | INFO : 07:37:17:665  - log-service  - updateLeadGroupNameTrailGroupName  - Start 
+7:37:17 AM | INFO : 07:37:17:730  - log-service  - updateTrailPassNameActualFromTableLimits  - Success 
+7:37:17 AM | INFO : 07:37:17:866  - CloudData  - SyncSLogs  - SLOG DONE: 100 
+7:37:17 AM | INFO : 07:37:17:869  - log-service  - updateLeadGroupNameTrailGroupName  - Updated, Rows affected : 476 
+7:37:17 AM | INFO : 07:37:17:870  - log-service  - updateLeadStatus  - START 
+7:37:17 AM | INFO : 07:37:17:870  - log-service  - updateLeadStatus  - FromeditParam else: false 
+7:37:18 AM | INFO : 07:37:18:018  - log-service  - updateColumnStatus called from: Lead Calculation - Starting  - Updated, Rows affected: 476 
+7:37:18 AM | INFO : 07:37:18:075  - CloudData  - SyncSLogs  - SLOG DONE: 150 
+7:37:18 AM | INFO : 07:37:18:082  - log-service  - updateLeadStatus  - parsedCheckeditems-volts:  true 
+7:37:18 AM | INFO : 07:37:18:163  - log-service  - updateColumnStatus called from: Lead Calculation - Lead STATUS  - Updated, Rows affected: 476 
+7:37:18 AM | INFO : 07:37:18:168  - CloudData  - syncSlogs  - No syncSlogs with 'cloud_sync' status pending. Sync operation completed. 
+7:37:18 AM | INFO : 07:37:18:168  - CloudData  - syncSlogs  - COMPLETED: 150 records 
+7:37:18 AM | INFO : 07:37:18:182  - log-service  - updateLeadStatus  - parsedCheckeditems-current:  true 
+7:37:18 AM | INFO : 07:37:18:282  - log-service  - updateLeadStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:37:18 AM | INFO : 07:37:18:308  - log-service  - updateColumnStatus called from: leadStatus - volts  - Updated, Rows affected: 0 
+7:37:18 AM | INFO : 07:37:18:311  - log-service  - updateCloudSyncSlog  - Updated cloud_sync status to 'done' for 134 S-Logs 
+7:37:18 AM | INFO : 07:37:18:311  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:37:18 AM | INFO : 07:37:18:382  - log-service  - updateLeadStatus  - parsedCheckeditems-Travel_speed:  true 
+7:37:18 AM | INFO : 07:37:18:453  - log-service  - updateColumnStatus called from: leadStatus - current  - Updated, Rows affected: 0 
+7:37:18 AM | INFO : 07:37:18:482  - log-service  - updateLeadStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:37:18 AM | INFO : 07:37:18:594  - log-service  - updateColumnStatus called from: leadStatus - wire speed  - Updated, Rows affected: 0 
+7:37:18 AM | INFO : 07:37:18:739  - log-service  - updateColumnStatus called from: leadStatus - travel speed  - Updated, Rows affected: 0 
+7:37:18 AM | INFO : 07:37:18:879  - log-service  - updateColumnStatus called from: leadStatus - oscillation width  - Updated, Rows affected: 0 
+7:37:18 AM | INFO : 07:37:18:883  - log-service  - updateTrailStatus  - START 
+7:37:18 AM | INFO : 07:37:18:883  - log-service  - updateTrailStatus  - FromeditParam else: false 
+7:37:19 AM | INFO : 07:37:19:021  - log-service  - updateColumnStatus called from: Lead Calculation - Completing  - Updated, Rows affected: 476 
+7:37:19 AM | INFO : 07:37:19:023  - CloudData  - syncS_logStatus  - No syncS_logStatus with 'cloud_sync' status pending. Sync operation completed. 
+7:37:19 AM | INFO : 07:37:19:024  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:37:19 AM | INFO : 07:37:19:099  - log-service  - updateTrailStatus  - parsedCheckeditems-volts:  true 
+7:37:19 AM | INFO : 07:37:19:164  - log-service  - updateColumnStatus called from: trail Calculation - Starting  - Updated, Rows affected: 476 
+7:37:19 AM | INFO : 07:37:19:215  - log-service  - updateTrailStatus  - parsedCheckeditems-current:  true 
+7:37:19 AM | INFO : 07:37:19:306  - log-service  - updateColumnStatus called from: trail Calculation - Trail STATUS  - Updated, Rows affected: 476 
+7:37:19 AM | INFO : 07:37:19:315  - log-service  - updateTrailStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:37:19 AM | INFO : 07:37:19:432  - log-service  - updateTrailStatus  - parsedCheckeditems-Travel_speed:  true 
+7:37:19 AM | INFO : 07:37:19:448  - log-service  - updateColumnStatus called from: trailStatus - volts  - Updated, Rows affected: 0 
+7:37:19 AM | INFO : 07:37:19:532  - log-service  - updateTrailStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:37:19 AM | INFO : 07:37:19:591  - log-service  - updateColumnStatus called from: trailStatus - current  - Updated, Rows affected: 0 
+7:37:19 AM | INFO : 07:37:19:593  - CloudData  - syncTableLimits  - No syncTableLimits with 'cloud_sync' status pending. Sync operation aborted. 
+7:37:19 AM | INFO : 07:37:19:593  - CloudData  - syncTableLimits  - COMPLETED: 0 records 
+7:37:19 AM | INFO : 07:37:19:594  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+7:37:19 AM | INFO : 07:37:19:734  - log-service  - updateColumnStatus called from: trailStatus - wire speed  - Updated, Rows affected: 0 
+7:37:19 AM | INFO : 07:37:19:874  - log-service  - updateColumnStatus called from: trailStatus - travel speed  - Updated, Rows affected: 0 
+7:37:19 AM | INFO : 07:37:19:965  - log-service  - statusCrossCheck  - Start 
+7:37:20 AM | INFO : 07:37:20:014  - log-service  - updateColumnStatus called from: trailStatus - oscillation width  - Updated, Rows affected: 0 
+7:37:20 AM | INFO : 07:37:20:157  - log-service  - updateColumnStatus called from: Trail Calculation - Completing  - Updated, Rows affected: 476 
+7:37:20 AM | INFO : 07:37:20:280  - log-service  - statusCrossCheck  - Updated, Rows affected : 58144 
+7:37:20 AM | INFO : 07:37:20:433  - log-serivce  - updateAvgTableZoneStatus  - Unique length Lead: undefined 
+7:37:20 AM | INFO : 07:37:20:433  - log-serivce  - updateAvgTableZoneStatus  - Unique length trail: undefined 
+7:37:20 AM | INFO : 07:37:20:488  - log-service  - trueAvgStatus  - Updated, Rows affected: 16 
+7:37:20 AM | INFO : 07:37:20:731  - log-service  - trueTiltStatus  - DB update failed 
+7:37:20 AM | INFO : 07:37:20:733  - CloudData  - syncAvgTLog  - DONE COUNT: 50 
+7:37:21 AM | INFO : 07:37:21:245  - CloudData  - syncAvgTLog  - DONE COUNT: 100 
+7:37:21 AM | INFO : 07:37:21:284  - log-service  - updateColumnStatus called from: updateSLogsStatusFromTLogsStatus-IWM  - Updated, Rows affected: 5 
+7:37:21 AM | INFO : 07:37:21:306  - log-service  - updateLeadPassNameActualFromTableLimits  - Start 
+7:37:21 AM | INFO : 07:37:21:306  - log-service  - updateTrailPassNameActualFromTableLimits  - Start 
+7:37:21 AM | INFO : 07:37:21:351  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:37:21 AM | INFO : 07:37:21:498  - log-service  - getLogsFromSocket  - >>> getLogsFromSocket onclose: {"isTrusted":false,"code":1001,"reason":"Stream end encountered"} 
+7:37:21 AM | INFO : 07:37:21:515  - log-service  - updateLeadGroupNameTrailGroupName  - Start 
+7:37:21 AM | INFO : 07:37:21:757  - CloudData  - syncAvgTLog  - DONE COUNT: 150 
+7:37:22 AM | INFO : 07:37:22:425  - log-service  - updateLeadPassNameActualFromTableLimits  - Success 
+7:37:23 AM | INFO : 07:37:23:533  - log-service  - updateTrailPassNameActualFromTableLimits  - Success 
+7:37:23 AM | INFO : 07:37:23:869  - log-service  - updateLeadGroupNameTrailGroupName  - Updated, Rows affected : 160567 
+7:37:23 AM | INFO : 07:37:23:871  - log-service  - updateLeadStatus  - START 
+7:37:23 AM | INFO : 07:37:23:871  - log-service  - updateLeadStatus  - FromeditParam else: false 
+7:37:24 AM | INFO : 07:37:24:081  - log-service  - updateLeadStatus  - parsedCheckeditems-volts:  true 
+7:37:24 AM | INFO : 07:37:24:181  - log-service  - updateColumnStatus called from: Lead Calculation - Starting  - Updated, Rows affected: 160567 
+7:37:24 AM | INFO : 07:37:24:183  - log-service  - updateLeadStatus  - parsedCheckeditems-current:  true 
+7:37:24 AM | INFO : 07:37:24:298  - log-service  - updateLeadStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:37:24 AM | INFO : 07:37:24:317  - CloudData  - syncAvgTLog  - DONE COUNT: 200 
+7:37:24 AM | INFO : 07:37:24:398  - log-service  - updateLeadStatus  - parsedCheckeditems-Travel_speed:  true 
+7:37:24 AM | INFO : 07:37:24:477  - log-service  - updateColumnStatus called from: Lead Calculation - Lead STATUS  - Updated, Rows affected: 160567 
+7:37:24 AM | INFO : 07:37:24:498  - log-service  - updateLeadStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:37:24 AM | INFO : 07:37:24:634  - log-service  - updateColumnStatus called from: leadStatus - volts  - Updated, Rows affected: 670 
+7:37:24 AM | INFO : 07:37:24:791  - log-service  - updateColumnStatus called from: leadStatus - current  - Updated, Rows affected: 670 
+7:37:24 AM | INFO : 07:37:24:898  - log-service  - updateTrailStatus  - START 
+7:37:24 AM | INFO : 07:37:24:898  - log-service  - updateTrailStatus  - FromeditParam else: false 
+7:37:24 AM | INFO : 07:37:24:949  - log-service  - updateColumnStatus called from: leadStatus - wire speed  - Updated, Rows affected: 670 
+7:37:25 AM | INFO : 07:37:25:098  - log-service  - updateTrailStatus  - parsedCheckeditems-volts:  true 
+7:37:25 AM | INFO : 07:37:25:124  - log-service  - updateColumnStatus called from: leadStatus - travel speed  - Updated, Rows affected: 670 
+7:37:25 AM | INFO : 07:37:25:198  - log-service  - updateTrailStatus  - parsedCheckeditems-current:  true 
+7:37:25 AM | INFO : 07:37:25:280  - log-service  - updateColumnStatus called from: leadStatus - oscillation width  - Updated, Rows affected: 670 
+7:37:25 AM | INFO : 07:37:25:298  - log-service  - updateTrailStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:37:25 AM | INFO : 07:37:25:398  - log-service  - updateTrailStatus  - parsedCheckeditems-Travel_speed:  true 
+7:37:25 AM | INFO : 07:37:25:444  - CloudData  - syncAvgTLog  - DONE COUNT: 250 
+7:37:25 AM | INFO : 07:37:25:498  - log-service  - updateTrailStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:37:25 AM | INFO : 07:37:25:575  - log-service  - updateColumnStatus called from: Lead Calculation - Completing  - Updated, Rows affected: 160567 
+7:37:25 AM | INFO : 07:37:25:873  - log-service  - updateColumnStatus called from: trail Calculation - Starting  - Updated, Rows affected: 160567 
+7:37:25 AM | INFO : 07:37:25:898  - log-service  - statusCrossCheck  - Start 
+7:37:26 AM | INFO : 07:37:26:167  - log-service  - updateColumnStatus called from: trail Calculation - Trail STATUS  - Updated, Rows affected: 160567 
+7:37:26 AM | INFO : 07:37:26:313  - log-service  - updateColumnStatus called from: trailStatus - volts  - Updated, Rows affected: 670 
+7:37:26 AM | INFO : 07:37:26:461  - log-service  - updateColumnStatus called from: trailStatus - current  - Updated, Rows affected: 670 
+7:37:26 AM | INFO : 07:37:26:606  - log-service  - updateColumnStatus called from: trailStatus - wire speed  - Updated, Rows affected: 670 
+7:37:26 AM | INFO : 07:37:26:752  - log-service  - updateColumnStatus called from: trailStatus - travel speed  - Updated, Rows affected: 670 
+7:37:26 AM | INFO : 07:37:26:919  - log-service  - updateColumnStatus called from: trailStatus - oscillation width  - Updated, Rows affected: 670 
+7:37:27 AM | INFO : 07:37:27:209  - log-service  - updateColumnStatus called from: Trail Calculation - Completing  - Updated, Rows affected: 160567 
+7:37:27 AM | INFO : 07:37:27:233  - CloudData  - syncAvgTLog  - DONE COUNT: 300 
+7:37:27 AM | INFO : 07:37:27:332  - log-service  - statusCrossCheck  - Updated, Rows affected : 58144 
+7:37:31 AM | INFO : 07:37:31:291  - log-serivce  - updateAvgTableZoneStatus  - Unique length Lead: undefined 
+7:37:31 AM | INFO : 07:37:31:292  - log-serivce  - updateAvgTableZoneStatus  - Unique length trail: undefined 
+7:37:31 AM | INFO : 07:37:31:883  - log-service  - trueAvgStatus  - Updated, Rows affected: 28492 
+7:37:32 AM | INFO : 07:37:32:306  - CloudData  - syncAvgTLog  - DONE COUNT: 350 
+7:44:26 AM | INFO : 07:44:26:589  - CloudData  - syncAvgTLog  - DONE COUNT: 400 
+7:44:26 AM | INFO : 07:44:26:638  - log-service  - trueTiltStatus  - Updated, Rows affected: 20258 
+7:49:01 AM | INFO : 07:49:01:576  - CloudData  - syncAvgTLog  - DONE COUNT: 450 
+7:55:09 AM | INFO : 07:55:09:980  - log-service  - updateColumnStatus called from: updateSLogsStatusFromTLogsStatus-SEMPRA-600  - Updated, Rows affected: 6368 
+7:55:10 AM | INFO : 07:55:10:010  - log-service  - updateLeadPassNameActualFromTableLimits  - Start 
+7:55:10 AM | INFO : 07:55:10:010  - log-service  - updateTrailPassNameActualFromTableLimits  - Start 
+7:55:10 AM | INFO : 07:55:10:153  - log-service  - updateLeadPassNameActualFromTableLimits  - ERROR: updating data 
+7:55:10 AM | INFO : 07:55:10:217  - log-service  - updateLeadGroupNameTrailGroupName  - Start 
+7:55:10 AM | INFO : 07:55:10:294  - log-service  - updateTrailPassNameActualFromTableLimits  - ERROR: updating data 
+7:55:10 AM | INFO : 07:55:10:434  - log-service  - updateLeadGroupNameTrailGroupName  - DB update failed 
+7:55:10 AM | INFO : 07:55:10:435  - log-service  - updateLeadStatus  - START 
+7:55:10 AM | INFO : 07:55:10:435  - log-service  - updateLeadStatus  - FromeditParam else: false 
+7:55:10 AM | INFO : 07:55:10:574  - log-service  - updateColumnStatus called from: Lead Calculation - Starting  - Updated, Rows affected: 0 
+7:55:10 AM | INFO : 07:55:10:650  - log-service  - updateLeadStatus  - parsedCheckeditems-volts:  true 
+7:55:10 AM | INFO : 07:55:10:715  - log-service  - updateColumnStatus called from: Lead Calculation - Lead STATUS  - Updated, Rows affected: 0 
+7:55:10 AM | INFO : 07:55:10:767  - log-service  - updateLeadStatus  - parsedCheckeditems-current:  true 
+7:55:10 AM | INFO : 07:55:10:859  - log-service  - updateColumnStatus called from: leadStatus - volts  - Updated, Rows affected: 0 
+7:55:10 AM | INFO : 07:55:10:867  - log-service  - updateLeadStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:55:10 AM | INFO : 07:55:10:984  - log-service  - updateLeadStatus  - parsedCheckeditems-Travel_speed:  true 
+7:55:11 AM | INFO : 07:55:11:001  - log-service  - updateColumnStatus called from: leadStatus - current  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:100  - log-service  - updateLeadStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:55:11 AM | INFO : 07:55:11:142  - log-service  - updateColumnStatus called from: leadStatus - wire speed  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:283  - log-service  - updateColumnStatus called from: leadStatus - travel speed  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:425  - log-service  - updateColumnStatus called from: leadStatus - oscillation width  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:517  - log-service  - updateTrailStatus  - START 
+7:55:11 AM | INFO : 07:55:11:517  - log-service  - updateTrailStatus  - FromeditParam else: false 
+7:55:11 AM | INFO : 07:55:11:566  - log-service  - updateColumnStatus called from: Lead Calculation - Completing  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:711  - log-service  - updateColumnStatus called from: trail Calculation - Starting  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:750  - log-service  - updateTrailStatus  - parsedCheckeditems-volts:  true 
+7:55:11 AM | INFO : 07:55:11:850  - log-service  - updateTrailStatus  - parsedCheckeditems-current:  true 
+7:55:11 AM | INFO : 07:55:11:852  - log-service  - updateColumnStatus called from: trail Calculation - Trail STATUS  - Updated, Rows affected: 0 
+7:55:11 AM | INFO : 07:55:11:950  - log-service  - updateTrailStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:55:11 AM | INFO : 07:55:11:994  - log-service  - updateColumnStatus called from: trailStatus - volts  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:050  - log-service  - updateTrailStatus  - parsedCheckeditems-Travel_speed:  true 
+7:55:12 AM | INFO : 07:55:12:135  - log-service  - updateColumnStatus called from: trailStatus - current  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:151  - log-service  - updateTrailStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:55:12 AM | INFO : 07:55:12:276  - log-service  - updateColumnStatus called from: trailStatus - wire speed  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:417  - log-service  - updateColumnStatus called from: trailStatus - travel speed  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:560  - log-service  - updateColumnStatus called from: trailStatus - oscillation width  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:567  - log-service  - statusCrossCheck  - Start 
+7:55:12 AM | INFO : 07:55:12:700  - log-service  - updateColumnStatus called from: Trail Calculation - Completing  - Updated, Rows affected: 0 
+7:55:12 AM | INFO : 07:55:12:825  - log-service  - statusCrossCheck  - Updated, Rows affected : 58144 
+7:55:12 AM | INFO : 07:55:12:966  - log-serivce  - updateAvgTableZoneStatus  - Unique length Lead: undefined 
+7:55:12 AM | INFO : 07:55:12:966  - log-serivce  - updateAvgTableZoneStatus  - Unique length trail: undefined 
+7:55:13 AM | INFO : 07:55:13:000  - log-service  - trueAvgStatus  - DB update failed 
+7:55:13 AM | INFO : 07:55:13:240  - log-service  - trueTiltStatus  - DB update failed 
+7:55:13 AM | INFO : 07:55:13:327  - log-service  - updateColumnStatus called from: updateSLogsStatusFromTLogsStatus-SEMPRA-660  - Updated, Rows affected: 0 
+7:55:13 AM | INFO : 07:55:13:436  - log-service  - updateLeadPassNameActualFromTableLimits  - Start 
+7:55:13 AM | INFO : 07:55:13:436  - log-service  - updateTrailPassNameActualFromTableLimits  - Start 
+7:55:13 AM | INFO : 07:55:13:650  - log-service  - updateLeadGroupNameTrailGroupName  - Start 
+7:55:13 AM | INFO : 07:55:13:967  - log-service  - updateLeadPassNameActualFromTableLimits  - Success 
+7:55:13 AM | INFO : 07:55:13:977  - CloudData  - syncAvgTLog  - DONE COUNT: 500 
+7:55:14 AM | INFO : 07:55:14:611  - log-service  - updateTrailPassNameActualFromTableLimits  - Success 
+7:55:14 AM | INFO : 07:55:14:882  - log-service  - updateLeadGroupNameTrailGroupName  - Updated, Rows affected : 106290 
+7:55:14 AM | INFO : 07:55:14:883  - log-service  - updateLeadStatus  - START 
+7:55:14 AM | INFO : 07:55:14:884  - log-service  - updateLeadStatus  - FromeditParam else: false 
+7:55:15 AM | INFO : 07:55:15:100  - log-service  - updateLeadStatus  - parsedCheckeditems-volts:  true 
+7:55:15 AM | INFO : 07:55:15:144  - log-service  - updateColumnStatus called from: Lead Calculation - Starting  - Updated, Rows affected: 106290 
+7:55:15 AM | INFO : 07:55:15:200  - log-service  - updateLeadStatus  - parsedCheckeditems-current:  true 
+7:55:15 AM | INFO : 07:55:15:300  - log-service  - updateLeadStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:55:15 AM | INFO : 07:55:15:308  - CloudData  - syncAvgTLog  - DONE COUNT: 550 
+7:55:15 AM | INFO : 07:55:15:388  - log-service  - updateColumnStatus called from: Lead Calculation - Lead STATUS  - Updated, Rows affected: 106290 
+7:55:15 AM | INFO : 07:55:15:400  - log-service  - updateLeadStatus  - parsedCheckeditems-Travel_speed:  true 
+7:55:15 AM | INFO : 07:55:15:500  - log-service  - updateLeadStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:55:15 AM | INFO : 07:55:15:530  - log-service  - updateColumnStatus called from: leadStatus - volts  - Updated, Rows affected: 0 
+7:55:15 AM | INFO : 07:55:15:671  - log-service  - updateColumnStatus called from: leadStatus - current  - Updated, Rows affected: 0 
+7:55:15 AM | INFO : 07:55:15:811  - log-service  - updateColumnStatus called from: leadStatus - wire speed  - Updated, Rows affected: 0 
+7:55:15 AM | INFO : 07:55:15:916  - log-service  - updateTrailStatus  - START 
+7:55:15 AM | INFO : 07:55:15:917  - log-service  - updateTrailStatus  - FromeditParam else: false 
+7:55:15 AM | INFO : 07:55:15:973  - log-service  - updateColumnStatus called from: leadStatus - travel speed  - Updated, Rows affected: 0 
+7:55:16 AM | INFO : 07:55:16:119  - log-service  - updateColumnStatus called from: leadStatus - oscillation width  - Updated, Rows affected: 0 
+7:55:16 AM | INFO : 07:55:16:133  - log-service  - updateTrailStatus  - parsedCheckeditems-volts:  true 
+7:55:16 AM | INFO : 07:55:16:250  - log-service  - updateTrailStatus  - parsedCheckeditems-current:  true 
+7:55:16 AM | INFO : 07:55:16:332  - CloudData  - syncAvgTLog  - DONE COUNT: 600 
+7:55:16 AM | INFO : 07:55:16:363  - log-service  - updateColumnStatus called from: Lead Calculation - Completing  - Updated, Rows affected: 106290 
+7:55:16 AM | INFO : 07:55:16:367  - log-service  - updateTrailStatus  - parsedCheckeditems-Wire_Speed:  true 
+7:55:16 AM | INFO : 07:55:16:483  - log-service  - updateTrailStatus  - parsedCheckeditems-Travel_speed:  true 
+7:55:16 AM | INFO : 07:55:16:583  - log-service  - updateTrailStatus  - parsedCheckeditems-Oscillation_Width:  true 
+7:55:16 AM | INFO : 07:55:16:608  - log-service  - updateColumnStatus called from: trail Calculation - Starting  - Updated, Rows affected: 106290 
+7:55:16 AM | INFO : 07:55:16:849  - log-service  - updateColumnStatus called from: trail Calculation - Trail STATUS  - Updated, Rows affected: 106290 
+7:55:16 AM | INFO : 07:55:16:983  - log-service  - statusCrossCheck  - Start 
+7:55:16 AM | INFO : 07:55:16:997  - log-service  - updateColumnStatus called from: trailStatus - volts  - Updated, Rows affected: 0 
+7:55:17 AM | INFO : 07:55:17:138  - log-service  - updateColumnStatus called from: trailStatus - current  - Updated, Rows affected: 0 
+7:55:17 AM | INFO : 07:55:17:297  - log-service  - updateColumnStatus called from: trailStatus - wire speed  - Updated, Rows affected: 0 
+7:55:17 AM | INFO : 07:55:17:438  - log-service  - updateColumnStatus called from: trailStatus - travel speed  - Updated, Rows affected: 0 
+7:55:17 AM | INFO : 07:55:17:579  - log-service  - updateColumnStatus called from: trailStatus - oscillation width  - Updated, Rows affected: 0 
+7:55:17 AM | INFO : 07:55:17:663  - CloudData  - syncAvgTLog  - DONE COUNT: 650 
+7:55:17 AM | INFO : 07:55:17:822  - log-service  - updateColumnStatus called from: Trail Calculation - Completing  - Updated, Rows affected: 106290 
+7:55:17 AM | INFO : 07:55:17:948  - log-service  - statusCrossCheck  - Updated, Rows affected : 58144 
+7:55:21 AM | INFO : 07:55:21:104  - log-serivce  - updateAvgTableZoneStatus  - Unique length Lead: undefined 
+7:55:21 AM | INFO : 07:55:21:104  - log-serivce  - updateAvgTableZoneStatus  - Unique length trail: undefined 
+7:55:22 AM | INFO : 07:55:22:764  - CloudData  - syncAvgTLog ===  - No syncAvgTLog with 'cloud_sync' status pending. Sync operation aborted. 
+7:55:22 AM | INFO : 07:55:22:765  - CloudData  - syncAvgTLog  - COMPLETED: 650 records 
+7:55:22 AM | INFO : 07:55:22:842  - log-service  - trueAvgStatus  - Updated, Rows affected: 38572 
+8:02:38 AM | INFO : 08:02:38:818  - Checkinternet  - useEffect  - Triggering syncData every 30 minutes 
+8:02:38 AM | INFO : 08:02:38:819  - CheckInternet  - syncData  - syncData function called 
+8:02:38 AM | INFO : 08:02:38:819  - CheckInternet  - syncData  - SYNCING STARTED : 1 
+8:09:12 AM | INFO : 08:09:12:405  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:09:12 AM | INFO : 08:09:12:407  - CheckInternet  - SyncData  - Syncing data for project ID: 1 
+8:09:12 AM | INFO : 08:09:12:408  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:09:42 AM | INFO : 08:09:42:087  - CloudData  - syncProjects  - No syncProjects data with 'cloud_sync' status pending. Sync operation aborted. 
+8:09:42 AM | INFO : 08:09:42:088  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:09:42 AM | INFO : 08:09:42:146  - log-service  - trueTiltStatus  - Updated, Rows affected: 28242 
+8:10:23 AM | ERROR : 08:10:23:071  - log-service  - updateAvgStatus  - DB update failed 
+8:10:47 AM | ERROR : 08:10:47:028  - log-service  - updateAvgStatus  - DB update failed 
+8:14:28 AM | ERROR : 08:14:28:030  - log-service  - updateAvgStatus  - DB update failed 
+8:28:10 AM | INFO : 08:28:10:450  - log-service  - updateColumnStatus called from: updateSLogsStatusFromTLogsStatus-sempra42x864  - Updated, Rows affected: 8023 
+8:28:10 AM | INFO : 08:28:10:485  - CloudData  - syncSlogs  - No syncSlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:28:10 AM | INFO : 08:28:10:486  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:10 AM | INFO : 08:28:10:487  - log-service  - updateLeadPassNameActualFromTableLimits  - Start 
+8:28:10 AM | INFO : 08:28:10:487  - log-service  - updateTrailPassNameActualFromTableLimits  - Start 
+8:28:10 AM | INFO : 08:28:10:640  - log-service  - updateLeadPassNameActualFromTableLimits  - Success 
+8:28:10 AM | INFO : 08:28:10:693  - log-service  - updateLeadGroupNameTrailGroupName  - Start 
+8:28:10 AM | INFO : 08:28:10:791  - log-service  - updateTrailPassNameActualFromTableLimits  - Success 
+8:28:10 AM | INFO : 08:28:10:792  - CloudData  - syncS_logStatus  - No syncS_logStatus with 'cloud_sync' status pending. Sync operation completed. 
+8:28:10 AM | INFO : 08:28:10:792  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:10 AM | INFO : 08:28:10:941  - log-service  - updateLeadGroupNameTrailGroupName  - Updated, Rows affected : 29 
+8:28:10 AM | INFO : 08:28:10:943  - log-service  - updateLeadStatus  - START 
+8:28:10 AM | INFO : 08:28:10:943  - log-service  - updateLeadStatus  - FromeditParam else: false 
+8:28:11 AM | INFO : 08:28:11:083  - log-service  - updateColumnStatus called from: Lead Calculation - Starting  - Updated, Rows affected: 29 
+8:28:11 AM | INFO : 08:28:11:085  - CloudData  - syncTableLimits  - No syncTableLimits with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:11 AM | INFO : 08:28:11:085  - CloudData  - syncTableLimits  - COMPLETED: 0 records 
+8:28:11 AM | INFO : 08:28:11:085  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:11 AM | INFO : 08:28:11:143  - log-service  - updateLeadStatus  - parsedCheckeditems-volts:  true 
+8:28:11 AM | INFO : 08:28:11:225  - log-service  - updateColumnStatus called from: Lead Calculation - Lead STATUS  - Updated, Rows affected: 29 
+8:28:11 AM | INFO : 08:28:11:243  - log-service  - updateLeadStatus  - parsedCheckeditems-current:  true 
+8:28:11 AM | INFO : 08:28:11:343  - log-service  - updateLeadStatus  - parsedCheckeditems-Wire_Speed:  true 
+8:28:11 AM | INFO : 08:28:11:367  - log-service  - updateColumnStatus called from: leadStatus - volts  - Updated, Rows affected: 0 
+8:28:11 AM | INFO : 08:28:11:380  - CloudData  - syncAvgTLog ===  - No syncAvgTLog with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:11 AM | INFO : 08:28:11:381  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:11 AM | INFO : 08:28:11:443  - log-service  - updateLeadStatus  - parsedCheckeditems-Travel_speed:  true 
+8:28:11 AM | INFO : 08:28:11:524  - log-service  - updateColumnStatus called from: leadStatus - current  - Updated, Rows affected: 0 
+8:28:11 AM | INFO : 08:28:11:560  - log-service  - updateLeadStatus  - parsedCheckeditems-Oscillation_Width:  true 
+8:28:11 AM | INFO : 08:28:11:665  - log-service  - updateColumnStatus called from: leadStatus - wire speed  - Updated, Rows affected: 0 
+8:28:11 AM | INFO : 08:28:11:806  - log-service  - updateColumnStatus called from: leadStatus - travel speed  - Updated, Rows affected: 0 
+8:28:11 AM | INFO : 08:28:11:948  - log-service  - updateColumnStatus called from: leadStatus - oscillation width  - Updated, Rows affected: 0 
+8:28:11 AM | INFO : 08:28:11:993  - log-service  - updateTrailStatus  - START 
+8:28:11 AM | INFO : 08:28:11:994  - log-service  - updateTrailStatus  - FromeditParam else: false 
+8:28:12 AM | INFO : 08:28:12:106  - log-service  - updateColumnStatus called from: Lead Calculation - Completing  - Updated, Rows affected: 29 
+8:28:12 AM | INFO : 08:28:12:226  - log-service  - updateTrailStatus  - parsedCheckeditems-volts:  true 
+8:28:12 AM | INFO : 08:28:12:248  - log-service  - updateColumnStatus called from: trail Calculation - Starting  - Updated, Rows affected: 29 
+8:28:12 AM | INFO : 08:28:12:343  - log-service  - updateTrailStatus  - parsedCheckeditems-current:  true 
+8:28:12 AM | INFO : 08:28:12:392  - log-service  - updateColumnStatus called from: trail Calculation - Trail STATUS  - Updated, Rows affected: 29 
+8:28:12 AM | INFO : 08:28:12:443  - log-service  - updateTrailStatus  - parsedCheckeditems-Wire_Speed:  true 
+8:28:12 AM | INFO : 08:28:12:534  - log-service  - updateColumnStatus called from: trailStatus - volts  - Updated, Rows affected: 0 
+8:28:12 AM | INFO : 08:28:12:543  - log-service  - updateTrailStatus  - parsedCheckeditems-Travel_speed:  true 
+8:28:12 AM | INFO : 08:28:12:660  - log-service  - updateTrailStatus  - parsedCheckeditems-Oscillation_Width:  true 
+8:28:12 AM | INFO : 08:28:12:675  - log-service  - updateColumnStatus called from: trailStatus - current  - Updated, Rows affected: 0 
+8:28:12 AM | INFO : 08:28:12:818  - log-service  - updateColumnStatus called from: trailStatus - wire speed  - Updated, Rows affected: 0 
+8:28:12 AM | INFO : 08:28:12:959  - log-service  - updateColumnStatus called from: trailStatus - travel speed  - Updated, Rows affected: 0 
+8:28:13 AM | INFO : 08:28:13:076  - log-service  - statusCrossCheck  - Start 
+8:28:13 AM | INFO : 08:28:13:102  - log-service  - updateColumnStatus called from: trailStatus - oscillation width  - Updated, Rows affected: 0 
+8:28:13 AM | INFO : 08:28:13:246  - log-service  - updateColumnStatus called from: Trail Calculation - Completing  - Updated, Rows affected: 29 
+8:28:13 AM | INFO : 08:28:13:370  - log-service  - statusCrossCheck  - Updated, Rows affected : 58144 
+8:28:13 AM | INFO : 08:28:13:512  - log-serivce  - updateAvgTableZoneStatus  - Unique length Lead: undefined 
+8:28:13 AM | INFO : 08:28:13:512  - log-serivce  - updateAvgTableZoneStatus  - Unique length trail: undefined 
+8:28:13 AM | INFO : 08:28:13:547  - log-service  - trueAvgStatus  - Updated, Rows affected: 28 
+8:28:13 AM | INFO : 08:28:13:919  - CloudData  - syncTiltViewLogs  - DONE COUNT: 50 
+8:28:14 AM | INFO : 08:28:14:077  - log-service  - trueTiltStatus  - Updated, Rows affected: 24 
+8:28:14 AM | INFO : 08:28:14:376  - Log-Service  - InsertsLogStatus  -  Start 
+8:28:14 AM | INFO : 08:28:14:432  - CloudData  - syncTiltViewLogs  - DONE COUNT: 100 
+8:28:14 AM | INFO : 08:28:14:737  - CloudData  - syncTiltViewLogs  - DONE COUNT: 50 
+8:28:14 AM | INFO : 08:28:14:787  - log-service  - updateColumnStatus called from: updateSLogsStatusFromTLogsStatus-troy  - Updated, Rows affected: 6 
+8:28:14 AM | INFO : 08:28:14:829  - log-service  - weldScreenErrorBanner  - Updated, Rows affected: 1 
+8:28:15 AM | INFO : 08:28:15:197  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+8:28:15 AM | INFO : 08:28:15:199  - log-service  - getSLogsStatusByProjectId  - 
+26
+
+8:28:15 AM | INFO : 08:28:15:412  - logService  - InsertsLogStatus - updating the status :   - 
+26
+
+8:28:15 AM | INFO : 08:28:15:477  - CheckInternet  - fetchData  - fetchData function called 
+8:28:15 AM | INFO : 08:28:15:477  - CheckInternet  - fetchData  - START, FROM=false 
+8:28:15 AM | INFO : 08:28:15:478  - MainScreen  - [triggerBackup, countVal] useEffect  - triggerBackup: true, countVal: 0 
+8:28:15 AM | INFO : 08:28:15:502  - MainScreen  - [triggerBackup, countVal] useEffect  - triggerBackup: false, countVal: 0 
+8:28:15 AM | INFO : 08:28:15:512  - CloudData  - isProjectDataSyncedToCloud  - PROJECTS PENDING: 1 
+8:28:15 AM | INFO : 08:28:15:512  - CheckInternet  - fetchData  - Data sync state: false 
+8:28:15 AM | INFO : 08:28:15:512  - CheckInternet  - fetchData  - SETTING: PENDING 
+8:28:15 AM | INFO : 08:28:15:515  - CheckInternet  - syncData  - syncData function called 
+8:28:15 AM | INFO : 08:28:15:515  - CheckInternet  - syncData  - SYNCING STARTED : 1 
+8:28:15 AM | INFO : 08:28:15:516  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"PENDING"} 
+8:28:15 AM | INFO : 08:28:15:519  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+8:28:15 AM | INFO : 08:28:15:520  - CheckInternet  - SyncData  - Syncing data for project ID: 1 
+8:28:15 AM | INFO : 08:28:15:520  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:15 AM | INFO : 08:28:15:523  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+8:28:15 AM | INFO : 08:28:15:526  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+8:28:15 AM | INFO : 08:28:15:557  - log-service  - updateCloudSyncSlogByProjectId  - Cloud sync status updated to 'pending' for project_id=1 
+8:28:15 AM | INFO : 08:28:15:597  - log-service  - updateS_LogsStatusByProjectId  - s_logStatus updated to 'pending' for project_id=1 
+8:28:15 AM | INFO : 08:28:15:606  - CloudData  - syncTiltViewLogs  - DONE COUNT: 150 
+8:28:15 AM | INFO : 08:28:15:614  - CloudData  - syncTiltViewLogs  - DONE COUNT: 100 
+8:28:15 AM | INFO : 08:28:15:846  - CloudData  - syncProjects  - project_table Sync operation completed successfully. 
+8:28:15 AM | INFO : 08:28:15:847  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"DONE"} 
+8:28:15 AM | INFO : 08:28:15:856  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:15 AM | INFO : 08:28:15:856  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+8:28:15 AM | INFO : 08:28:15:877  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+8:28:15 AM | INFO : 08:28:15:882  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+8:28:15 AM | INFO : 08:28:15:883  - ProjectMaster-service  - updateCloudSyncTableProjects  - Completed 
+8:28:16 AM | INFO : 08:28:16:036  - CloudData  - syncTiltViewLogs  - DONE COUNT: 200 
+8:28:16 AM | INFO : 08:28:16:076  - CloudData  - syncTiltViewLogs  - DONE COUNT: 150 
+8:28:16 AM | INFO : 08:28:16:282  - CloudData  - SyncSLogs  - SLOG DONE: 50 
+8:28:16 AM | INFO : 08:28:16:490  - CloudData  - syncTiltViewLogs  - DONE COUNT: 250 
+8:28:16 AM | INFO : 08:28:16:574  - CloudData  - syncTiltViewLogs  - DONE COUNT: 200 
+8:28:16 AM | INFO : 08:28:16:671  - CloudData  - SyncSLogs  - SLOG DONE: 100 
+8:28:17 AM | INFO : 08:28:17:006  - CloudData  - syncTiltViewLogs  - DONE COUNT: 300 
+8:28:17 AM | INFO : 08:28:17:021  - CloudData  - syncTiltViewLogs  - DONE COUNT: 250 
+8:28:17 AM | INFO : 08:28:17:059  - CloudData  - SyncSLogs  - SLOG DONE: 150 
+8:28:17 AM | INFO : 08:28:17:522  - CloudData  - syncTiltViewLogs  - DONE COUNT: 350 
+8:28:17 AM | INFO : 08:28:17:529  - CloudData  - syncTiltViewLogs  - DONE COUNT: 300 
+8:28:17 AM | INFO : 08:28:17:535  - CloudData  - SyncSLogs  - SLOG DONE: 200 
+8:28:17 AM | INFO : 08:28:17:792  - CloudData  - syncTiltViewLogs  - DONE COUNT: 400 
+8:28:17 AM | INFO : 08:28:17:852  - CloudData  - SyncSLogs  - SLOG DONE: 250 
+8:28:18 AM | INFO : 08:28:18:016  - CloudData  - syncTiltViewLogs  - DONE COUNT: 350 
+8:28:18 AM | INFO : 08:28:18:254  - CloudData  - syncTiltViewLogs  - DONE COUNT: 450 
+8:28:18 AM | INFO : 08:28:18:289  - CloudData  - SyncSLogs  - SLOG DONE: 300 
+8:28:18 AM | INFO : 08:28:18:462  - CloudData  - syncTiltViewLogs  - DONE COUNT: 400 
+8:28:18 AM | INFO : 08:28:18:724  - CloudData  - syncTiltViewLogs  - DONE COUNT: 500 
+8:28:18 AM | INFO : 08:28:18:736  - CloudData  - SyncSLogs  - SLOG DONE: 350 
+8:28:18 AM | INFO : 08:28:18:920  - CloudData  - syncTiltViewLogs  - DONE COUNT: 450 
+8:28:19 AM | INFO : 08:28:19:058  - CloudData  - syncTiltViewLogs  - DONE COUNT: 550 
+8:28:19 AM | INFO : 08:28:19:081  - CloudData  - syncTiltViewLogs  - No syncTiltViewLogs with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:19 AM | INFO : 08:28:19:081  - CloudData  - syncTiltViewLogs  - COMPLETED: 550 records 
+8:28:19 AM | INFO : 08:28:19:092  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:19 AM | INFO : 08:28:19:147  - CloudData  - SyncSLogs  - SLOG DONE: 400 
+8:28:19 AM | INFO : 08:28:19:355  - CloudData  - syncTiltViewLogs  - DONE COUNT: 500 
+8:28:19 AM | INFO : 08:28:19:378  - CloudData  - syncTiltViewLogs  - No syncTiltViewLogs with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:19 AM | INFO : 08:28:19:379  - CloudData  - syncTiltViewLogs  - COMPLETED: 500 records 
+8:28:19 AM | INFO : 08:28:19:382  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:19 AM | INFO : 08:28:19:572  - CloudData  - SyncSLogs  - SLOG DONE: 450 
+8:28:19 AM | INFO : 08:28:19:576  - CloudData  - TLOGS  - DONE COUNT: 50 
+8:28:19 AM | INFO : 08:28:19:654  - CloudData  - TLOGS  - DONE COUNT: 50 
+8:28:19 AM | INFO : 08:28:19:963  - CloudData  - SyncSLogs  - SLOG DONE: 500 
+8:28:20 AM | INFO : 08:28:20:034  - CloudData  - TLOGS  - DONE COUNT: 100 
+8:28:20 AM | INFO : 08:28:20:083  - CloudData  - TLOGS  - DONE COUNT: 100 
+8:28:20 AM | INFO : 08:28:20:375  - CloudData  - SyncSLogs  - SLOG DONE: 550 
+8:28:20 AM | INFO : 08:28:20:513  - CloudData  - TLOGS  - DONE COUNT: 150 
+8:28:20 AM | INFO : 08:28:20:537  - CloudData  - TLOGS  - DONE COUNT: 150 
+8:28:20 AM | INFO : 08:28:20:796  - CloudData  - SyncSLogs  - SLOG DONE: 600 
+8:28:20 AM | INFO : 08:28:20:811  - CloudData  - TLOGS  - DONE COUNT: 200 
+8:28:20 AM | INFO : 08:28:20:851  - CloudData  - TLOGS  - DONE COUNT: 200 
+8:28:20 AM | INFO : 08:28:20:986  - CloudData  - SyncSLogs  - SLOG DONE: 650 
+8:28:21 AM | INFO : 08:28:21:411  - CloudData  - TLOGS  - DONE COUNT: 250 
+8:28:21 AM | INFO : 08:28:21:417  - CloudData  - TLOGS  - DONE COUNT: 250 
+8:28:21 AM | INFO : 08:28:21:445  - CloudData  - SyncSLogs  - SLOG DONE: 700 
+8:28:21 AM | INFO : 08:28:21:716  - CloudData  - TLOGS  - DONE COUNT: 300 
+8:28:21 AM | INFO : 08:28:21:771  - CloudData  - SyncSLogs  - SLOG DONE: 750 
+8:28:21 AM | INFO : 08:28:21:941  - CloudData  - TLOGS  - DONE COUNT: 300 
+8:28:22 AM | INFO : 08:28:22:262  - CloudData  - SyncSLogs  - SLOG DONE: 800 
+8:28:22 AM | INFO : 08:28:22:268  - CloudData  - TLOGS  - DONE COUNT: 350 
+8:28:22 AM | INFO : 08:28:22:387  - CloudData  - TLOGS  - DONE COUNT: 350 
+8:28:22 AM | INFO : 08:28:22:569  - CloudData  - TLOGS  - DONE COUNT: 400 
+8:28:22 AM | INFO : 08:28:22:723  - CloudData  - SyncSLogs  - SLOG DONE: 850 
+8:28:22 AM | INFO : 08:28:22:876  - CloudData  - TLOGS  - DONE COUNT: 450 
+8:28:22 AM | INFO : 08:28:22:905  - CloudData  - TLOGS  - DONE COUNT: 400 
+8:28:22 AM | INFO : 08:28:22:928  - CloudData  - SyncSLogs  - SLOG DONE: 900 
+8:28:23 AM | INFO : 08:28:23:175  - CloudData  - TLOGS  - DONE COUNT: 500 
+8:28:23 AM | INFO : 08:28:23:223  - CloudData  - TLOGS  - DONE COUNT: 450 
+8:28:23 AM | INFO : 08:28:23:248  - CloudData  - SyncSLogs  - SLOG DONE: 950 
+8:28:23 AM | INFO : 08:28:23:481  - CloudData  - TLOGS  - DONE COUNT: 550 
+8:28:23 AM | INFO : 08:28:23:543  - CloudData  - SyncSLogs  - SLOG DONE: 1000 
+8:28:23 AM | INFO : 08:28:23:710  - CloudData  - TLOGS  - DONE COUNT: 500 
+8:28:23 AM | INFO : 08:28:23:770  - CloudData  - TLOGS  - DONE COUNT: 600 
+8:28:23 AM | INFO : 08:28:23:985  - CloudData  - SyncSLogs  - SLOG DONE: 1050 
+8:28:23 AM | INFO : 08:28:23:992  - CloudData  - TLOGS  - DONE COUNT: 550 
+8:28:24 AM | INFO : 08:28:24:031  - CloudData  - TLOGS  - DONE COUNT: 650 
+8:28:24 AM | INFO : 08:28:24:212  - CloudData  - SyncSLogs  - SLOG DONE: 1100 
+8:28:24 AM | INFO : 08:28:24:290  - CloudData  - TLOGS  - DONE COUNT: 600 
+8:28:24 AM | INFO : 08:28:24:297  - CloudData  - TLOGS  - DONE COUNT: 700 
+8:28:24 AM | INFO : 08:28:24:396  - CloudData  - syncTlogs  - No syncTlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:28:24 AM | INFO : 08:28:24:396  - CloudData  - syncTlogs  - COMPLETED: 700 records 
+8:28:24 AM | INFO : 08:28:24:405  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:24 AM | INFO : 08:28:24:415  - CloudData  - SyncSLogs  - SLOG DONE: 1150 
+8:28:24 AM | INFO : 08:28:24:592  - CloudData  - TLOGS  - DONE COUNT: 650 
+8:28:24 AM | INFO : 08:28:24:623  - CloudData  - SyncSLogs  - SLOG DONE: 1200 
+8:28:24 AM | INFO : 08:28:24:655  - CloudData  - syncTlogs  - No syncTlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:28:24 AM | INFO : 08:28:24:655  - CloudData  - syncTlogs  - COMPLETED: 650 records 
+8:28:24 AM | INFO : 08:28:24:656  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:28:24 AM | INFO : 08:28:24:656  - CloudData  - syncWeldParameter  - No WeldParameter with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:24 AM | INFO : 08:28:24:656  - CheckInternet  - fetchData  - fetchData function called 
+8:28:24 AM | INFO : 08:28:24:656  - CheckInternet  - fetchData  - START, FROM=true 
+8:28:24 AM | INFO : 08:28:24:663  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:28:24 AM | INFO : 08:28:24:664  - CloudData  - isProjectDataSyncedToCloud  - SLOGS PENDING: 1 
+8:28:24 AM | INFO : 08:28:24:664  - CheckInternet  - fetchData  - Data sync state: false 
+8:28:24 AM | INFO : 08:28:24:664  - CheckInternet  - fetchData  - SETTING: PENDING 
+8:28:24 AM | INFO : 08:28:24:669  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"PENDING"} 
+8:28:24 AM | INFO : 08:28:24:672  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+8:28:24 AM | INFO : 08:28:24:673  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:28:24 AM | INFO : 08:28:24:673  - CloudData  - syncWeldParameter  - No WeldParameter with 'cloud_sync' status pending. Sync operation aborted. 
+8:28:24 AM | INFO : 08:28:24:673  - CheckInternet  - fetchData  - fetchData function called 
+8:28:24 AM | INFO : 08:28:24:673  - CheckInternet  - fetchData  - START, FROM=true 
+8:28:24 AM | INFO : 08:28:24:674  - CloudData  - isProjectDataSyncedToCloud  - SLOGS PENDING: 1 
+8:28:24 AM | INFO : 08:28:24:674  - CheckInternet  - fetchData  - Data sync state: false 
+8:28:24 AM | INFO : 08:28:24:674  - CheckInternet  - fetchData  - SETTING: PENDING 
+8:28:24 AM | INFO : 08:28:24:866  - CloudData  - SyncSLogs  - SLOG DONE: 1250 
+8:28:25 AM | INFO : 08:28:25:103  - CloudData  - SyncSLogs  - SLOG DONE: 1300 
+8:28:25 AM | INFO : 08:28:25:338  - CloudData  - SyncSLogs  - SLOG DONE: 1350 
+8:28:25 AM | INFO : 08:28:25:555  - CloudData  - SyncSLogs  - SLOG DONE: 1400 
+8:28:25 AM | INFO : 08:28:25:792  - CloudData  - SyncSLogs  - SLOG DONE: 1450 
+8:28:26 AM | INFO : 08:28:26:013  - CloudData  - SyncSLogs  - SLOG DONE: 1500 
+8:28:26 AM | INFO : 08:28:26:234  - CloudData  - SyncSLogs  - SLOG DONE: 1550 
+8:28:26 AM | INFO : 08:28:26:537  - CloudData  - SyncSLogs  - SLOG DONE: 1600 
+8:28:26 AM | INFO : 08:28:26:768  - CloudData  - SyncSLogs  - SLOG DONE: 1650 
+8:28:26 AM | INFO : 08:28:26:998  - CloudData  - SyncSLogs  - SLOG DONE: 1700 
+8:28:27 AM | INFO : 08:28:27:253  - CloudData  - SyncSLogs  - SLOG DONE: 1750 
+8:28:27 AM | INFO : 08:28:27:498  - CloudData  - SyncSLogs  - SLOG DONE: 1800 
+8:28:27 AM | INFO : 08:28:27:726  - CloudData  - SyncSLogs  - SLOG DONE: 1850 
+8:28:27 AM | INFO : 08:28:27:972  - CloudData  - SyncSLogs  - SLOG DONE: 1900 
+8:28:28 AM | INFO : 08:28:28:223  - CloudData  - SyncSLogs  - SLOG DONE: 1950 
+8:28:28 AM | INFO : 08:28:28:480  - CloudData  - SyncSLogs  - SLOG DONE: 2000 
+8:28:28 AM | INFO : 08:28:28:724  - CloudData  - SyncSLogs  - SLOG DONE: 2050 
+8:28:28 AM | INFO : 08:28:28:965  - CloudData  - SyncSLogs  - SLOG DONE: 2100 
+8:28:29 AM | INFO : 08:28:29:221  - CloudData  - SyncSLogs  - SLOG DONE: 2150 
+8:28:29 AM | INFO : 08:28:29:441  - CloudData  - SyncSLogs  - SLOG DONE: 2200 
+8:28:29 AM | INFO : 08:28:29:734  - CloudData  - SyncSLogs  - SLOG DONE: 2250 
+8:28:30 AM | INFO : 08:28:30:009  - CloudData  - SyncSLogs  - SLOG DONE: 2300 
+8:28:30 AM | INFO : 08:28:30:238  - CloudData  - SyncSLogs  - SLOG DONE: 2350 
+8:28:30 AM | INFO : 08:28:30:480  - CloudData  - SyncSLogs  - SLOG DONE: 2400 
+8:28:30 AM | INFO : 08:28:30:722  - CloudData  - SyncSLogs  - SLOG DONE: 2450 
+8:28:30 AM | INFO : 08:28:30:981  - CloudData  - SyncSLogs  - SLOG DONE: 2500 
+8:28:31 AM | INFO : 08:28:31:264  - CloudData  - SyncSLogs  - SLOG DONE: 2550 
+8:28:31 AM | INFO : 08:28:31:623  - CloudData  - SyncSLogs  - SLOG DONE: 2600 
+8:28:31 AM | INFO : 08:28:31:860  - CloudData  - SyncSLogs  - SLOG DONE: 2650 
+8:28:32 AM | INFO : 08:28:32:110  - CloudData  - SyncSLogs  - SLOG DONE: 2700 
+8:28:32 AM | INFO : 08:28:32:350  - CloudData  - SyncSLogs  - SLOG DONE: 2750 
+8:28:32 AM | INFO : 08:28:32:580  - CloudData  - SyncSLogs  - SLOG DONE: 2800 
+8:28:32 AM | INFO : 08:28:32:821  - CloudData  - SyncSLogs  - SLOG DONE: 2850 
+8:28:33 AM | INFO : 08:28:33:070  - CloudData  - SyncSLogs  - SLOG DONE: 2900 
+8:28:33 AM | INFO : 08:28:33:360  - CloudData  - SyncSLogs  - SLOG DONE: 2950 
+8:28:33 AM | INFO : 08:28:33:641  - CloudData  - SyncSLogs  - SLOG DONE: 3000 
+8:28:33 AM | INFO : 08:28:33:883  - CloudData  - SyncSLogs  - SLOG DONE: 3050 
+8:28:34 AM | INFO : 08:28:34:124  - CloudData  - SyncSLogs  - SLOG DONE: 3100 
+8:28:34 AM | INFO : 08:28:34:372  - CloudData  - SyncSLogs  - SLOG DONE: 3150 
+8:28:34 AM | INFO : 08:28:34:612  - CloudData  - SyncSLogs  - SLOG DONE: 3200 
+8:28:34 AM | INFO : 08:28:34:881  - CloudData  - SyncSLogs  - SLOG DONE: 3250 
+8:28:35 AM | INFO : 08:28:35:120  - CloudData  - SyncSLogs  - SLOG DONE: 3300 
+8:28:35 AM | INFO : 08:28:35:370  - CloudData  - SyncSLogs  - SLOG DONE: 3350 
+8:28:35 AM | INFO : 08:28:35:674  - CloudData  - SyncSLogs  - SLOG DONE: 3400 
+8:28:36 AM | INFO : 08:28:36:078  - CloudData  - SyncSLogs  - SLOG DONE: 3450 
+8:28:36 AM | INFO : 08:28:36:324  - CloudData  - SyncSLogs  - SLOG DONE: 3500 
+8:28:36 AM | INFO : 08:28:36:569  - CloudData  - SyncSLogs  - SLOG DONE: 3550 
+8:28:37 AM | INFO : 08:28:37:075  - CloudData  - SyncSLogs  - SLOG DONE: 3600 
+8:28:37 AM | INFO : 08:28:37:312  - CloudData  - SyncSLogs  - SLOG DONE: 3650 
+8:28:37 AM | INFO : 08:28:37:551  - CloudData  - SyncSLogs  - SLOG DONE: 3700 
+8:28:37 AM | INFO : 08:28:37:790  - CloudData  - SyncSLogs  - SLOG DONE: 3750 
+8:28:38 AM | INFO : 08:28:38:044  - CloudData  - SyncSLogs  - SLOG DONE: 3800 
+8:28:38 AM | INFO : 08:28:38:284  - CloudData  - SyncSLogs  - SLOG DONE: 3850 
+8:28:38 AM | INFO : 08:28:38:542  - CloudData  - SyncSLogs  - SLOG DONE: 3900 
+8:28:38 AM | INFO : 08:28:38:799  - CloudData  - SyncSLogs  - SLOG DONE: 3950 
+8:28:39 AM | INFO : 08:28:39:050  - CloudData  - SyncSLogs  - SLOG DONE: 4000 
+8:28:39 AM | INFO : 08:28:39:289  - CloudData  - SyncSLogs  - SLOG DONE: 4050 
+8:28:39 AM | INFO : 08:28:39:540  - CloudData  - SyncSLogs  - SLOG DONE: 4100 
+8:28:39 AM | INFO : 08:28:39:795  - CloudData  - SyncSLogs  - SLOG DONE: 4150 
+8:28:40 AM | INFO : 08:28:40:247  - CloudData  - SyncSLogs  - SLOG DONE: 4200 
+8:28:40 AM | INFO : 08:28:40:530  - CloudData  - SyncSLogs  - SLOG DONE: 4250 
+8:28:40 AM | INFO : 08:28:40:775  - CloudData  - SyncSLogs  - SLOG DONE: 4300 
+8:28:41 AM | INFO : 08:28:41:025  - CloudData  - SyncSLogs  - SLOG DONE: 4350 
+8:28:41 AM | INFO : 08:28:41:279  - CloudData  - SyncSLogs  - SLOG DONE: 4400 
+8:28:41 AM | INFO : 08:28:41:540  - CloudData  - SyncSLogs  - SLOG DONE: 4450 
+8:28:41 AM | INFO : 08:28:41:813  - CloudData  - SyncSLogs  - SLOG DONE: 4500 
+8:28:42 AM | INFO : 08:28:42:230  - CloudData  - SyncSLogs  - SLOG DONE: 4550 
+8:28:42 AM | INFO : 08:28:42:704  - CloudData  - SyncSLogs  - SLOG DONE: 4600 
+8:28:43 AM | INFO : 08:28:43:217  - CloudData  - SyncSLogs  - SLOG DONE: 4650 
+8:28:43 AM | INFO : 08:28:43:524  - CloudData  - SyncSLogs  - SLOG DONE: 4700 
+8:28:44 AM | INFO : 08:28:44:142  - CloudData  - SyncSLogs  - SLOG DONE: 4750 
+8:28:44 AM | INFO : 08:28:44:469  - CloudData  - SyncSLogs  - SLOG DONE: 4800 
+8:28:44 AM | INFO : 08:28:44:957  - CloudData  - SyncSLogs  - SLOG DONE: 4850 
+8:28:45 AM | INFO : 08:28:45:471  - CloudData  - SyncSLogs  - SLOG DONE: 4900 
+8:28:45 AM | INFO : 08:28:45:984  - CloudData  - SyncSLogs  - SLOG DONE: 4950 
+8:28:46 AM | INFO : 08:28:46:494  - CloudData  - SyncSLogs  - SLOG DONE: 5000 
+8:28:47 AM | INFO : 08:28:47:006  - CloudData  - SyncSLogs  - SLOG DONE: 5050 
+8:28:47 AM | INFO : 08:28:47:518  - CloudData  - SyncSLogs  - SLOG DONE: 5100 
+8:28:47 AM | INFO : 08:28:47:773  - CloudData  - SyncSLogs  - SLOG DONE: 5150 
+8:28:48 AM | INFO : 08:28:48:236  - CloudData  - SyncSLogs  - SLOG DONE: 5200 
+8:28:48 AM | INFO : 08:28:48:748  - CloudData  - SyncSLogs  - SLOG DONE: 5250 
+8:28:49 AM | INFO : 08:28:49:162  - CloudData  - SyncSLogs  - SLOG DONE: 5300 
+8:28:49 AM | INFO : 08:28:49:673  - CloudData  - SyncSLogs  - SLOG DONE: 5350 
+8:28:50 AM | INFO : 08:28:50:180  - CloudData  - SyncSLogs  - SLOG DONE: 5400 
+8:28:50 AM | INFO : 08:28:50:695  - CloudData  - SyncSLogs  - SLOG DONE: 5450 
+8:28:51 AM | INFO : 08:28:51:204  - CloudData  - SyncSLogs  - SLOG DONE: 5500 
+8:28:51 AM | INFO : 08:28:51:717  - CloudData  - SyncSLogs  - SLOG DONE: 5550 
+8:28:52 AM | INFO : 08:28:52:230  - CloudData  - SyncSLogs  - SLOG DONE: 5600 
+8:28:52 AM | INFO : 08:28:52:516  - CloudData  - SyncSLogs  - SLOG DONE: 5650 
+8:28:52 AM | INFO : 08:28:52:948  - CloudData  - SyncSLogs  - SLOG DONE: 5700 
+8:28:53 AM | INFO : 08:28:53:187  - CloudData  - SyncSLogs  - SLOG DONE: 5750 
+8:28:53 AM | INFO : 08:28:53:662  - CloudData  - SyncSLogs  - SLOG DONE: 5800 
+8:28:54 AM | INFO : 08:28:54:177  - CloudData  - SyncSLogs  - SLOG DONE: 5850 
+8:28:54 AM | INFO : 08:28:54:686  - CloudData  - SyncSLogs  - SLOG DONE: 5900 
+8:28:55 AM | INFO : 08:28:55:198  - CloudData  - SyncSLogs  - SLOG DONE: 5950 
+8:28:55 AM | INFO : 08:28:55:456  - CloudData  - SyncSLogs  - SLOG DONE: 6000 
+8:28:55 AM | INFO : 08:28:55:917  - CloudData  - SyncSLogs  - SLOG DONE: 6050 
+8:28:56 AM | INFO : 08:28:56:430  - CloudData  - SyncSLogs  - SLOG DONE: 6100 
+8:28:56 AM | INFO : 08:28:56:795  - CloudData  - SyncSLogs  - SLOG DONE: 6150 
+8:28:57 AM | INFO : 08:28:57:043  - CloudData  - SyncSLogs  - SLOG DONE: 6200 
+8:28:57 AM | INFO : 08:28:57:554  - CloudData  - SyncSLogs  - SLOG DONE: 6250 
+8:28:58 AM | INFO : 08:28:58:067  - CloudData  - SyncSLogs  - SLOG DONE: 6300 
+8:28:58 AM | INFO : 08:28:58:312  - CloudData  - SyncSLogs  - SLOG DONE: 6350 
+8:28:58 AM | INFO : 08:28:58:784  - CloudData  - SyncSLogs  - SLOG DONE: 6400 
+8:28:59 AM | INFO : 08:28:59:296  - CloudData  - SyncSLogs  - SLOG DONE: 6450 
+8:28:59 AM | INFO : 08:28:59:806  - CloudData  - SyncSLogs  - SLOG DONE: 6500 
+8:29:00 AM | INFO : 08:29:00:320  - CloudData  - SyncSLogs  - SLOG DONE: 6550 
+8:29:00 AM | INFO : 08:29:00:832  - CloudData  - SyncSLogs  - SLOG DONE: 6600 
+8:29:01 AM | INFO : 08:29:01:344  - CloudData  - SyncSLogs  - SLOG DONE: 6650 
+8:29:01 AM | INFO : 08:29:01:703  - CloudData  - SyncSLogs  - SLOG DONE: 6700 
+8:29:01 AM | INFO : 08:29:01:957  - CloudData  - SyncSLogs  - SLOG DONE: 6750 
+8:29:02 AM | INFO : 08:29:02:470  - CloudData  - SyncSLogs  - SLOG DONE: 6800 
+8:29:02 AM | INFO : 08:29:02:713  - CloudData  - SyncSLogs  - SLOG DONE: 6850 
+8:29:03 AM | INFO : 08:29:03:187  - CloudData  - SyncSLogs  - SLOG DONE: 6900 
+8:29:03 AM | INFO : 08:29:03:697  - CloudData  - SyncSLogs  - SLOG DONE: 6950 
+8:29:04 AM | INFO : 08:29:04:212  - CloudData  - SyncSLogs  - SLOG DONE: 7000 
+8:29:04 AM | INFO : 08:29:04:723  - CloudData  - SyncSLogs  - SLOG DONE: 7050 
+8:29:05 AM | INFO : 08:29:05:239  - CloudData  - SyncSLogs  - SLOG DONE: 7100 
+8:29:05 AM | INFO : 08:29:05:746  - CloudData  - SyncSLogs  - SLOG DONE: 7150 
+8:29:06 AM | INFO : 08:29:06:258  - CloudData  - SyncSLogs  - SLOG DONE: 7200 
+8:29:06 AM | INFO : 08:29:06:771  - CloudData  - SyncSLogs  - SLOG DONE: 7250 
+8:29:07 AM | INFO : 08:29:07:284  - CloudData  - SyncSLogs  - SLOG DONE: 7300 
+8:29:07 AM | INFO : 08:29:07:793  - CloudData  - SyncSLogs  - SLOG DONE: 7350 
+8:29:08 AM | INFO : 08:29:08:306  - CloudData  - SyncSLogs  - SLOG DONE: 7400 
+8:29:08 AM | INFO : 08:29:08:614  - CloudData  - SyncSLogs  - SLOG DONE: 7450 
+8:29:09 AM | INFO : 08:29:09:125  - CloudData  - SyncSLogs  - SLOG DONE: 7500 
+8:29:09 AM | INFO : 08:29:09:639  - CloudData  - SyncSLogs  - SLOG DONE: 7550 
+8:29:10 AM | INFO : 08:29:10:150  - CloudData  - SyncSLogs  - SLOG DONE: 7600 
+8:29:10 AM | INFO : 08:29:10:381  - CloudData  - SyncSLogs  - SLOG DONE: 7650 
+8:29:10 AM | INFO : 08:29:10:865  - CloudData  - SyncSLogs  - SLOG DONE: 7700 
+8:29:11 AM | INFO : 08:29:11:379  - CloudData  - SyncSLogs  - SLOG DONE: 7750 
+8:29:11 AM | INFO : 08:29:11:889  - CloudData  - SyncSLogs  - SLOG DONE: 7800 
+8:29:12 AM | INFO : 08:29:12:403  - CloudData  - SyncSLogs  - SLOG DONE: 7850 
+8:29:12 AM | INFO : 08:29:12:916  - CloudData  - SyncSLogs  - SLOG DONE: 7900 
+8:29:13 AM | INFO : 08:29:13:428  - CloudData  - SyncSLogs  - SLOG DONE: 7950 
+8:29:13 AM | INFO : 08:29:13:938  - CloudData  - SyncSLogs  - SLOG DONE: 8000 
+8:29:14 AM | INFO : 08:29:14:451  - CloudData  - SyncSLogs  - SLOG DONE: 8050 
+8:29:14 AM | INFO : 08:29:14:723  - CloudData  - SyncSLogs  - SLOG DONE: 8100 
+8:29:15 AM | INFO : 08:29:15:169  - CloudData  - SyncSLogs  - SLOG DONE: 8150 
+8:29:15 AM | INFO : 08:29:15:681  - CloudData  - SyncSLogs  - SLOG DONE: 8200 
+8:29:16 AM | INFO : 08:29:16:192  - CloudData  - SyncSLogs  - SLOG DONE: 8250 
+8:29:16 AM | INFO : 08:29:16:702  - CloudData  - SyncSLogs  - SLOG DONE: 8300 
+8:29:16 AM | INFO : 08:29:16:948  - CloudData  - SyncSLogs  - SLOG DONE: 8350 
+8:29:17 AM | INFO : 08:29:17:420  - CloudData  - SyncSLogs  - SLOG DONE: 8400 
+8:29:17 AM | INFO : 08:29:17:663  - CloudData  - SyncSLogs  - SLOG DONE: 8450 
+8:29:18 AM | INFO : 08:29:18:136  - CloudData  - SyncSLogs  - SLOG DONE: 8500 
+8:29:18 AM | INFO : 08:29:18:616  - CloudData  - SyncSLogs  - SLOG DONE: 8550 
+8:29:18 AM | INFO : 08:29:18:848  - CloudData  - SyncSLogs  - SLOG DONE: 8600 
+8:29:19 AM | INFO : 08:29:19:366  - CloudData  - SyncSLogs  - SLOG DONE: 8650 
+8:29:19 AM | INFO : 08:29:19:595  - CloudData  - SyncSLogs  - SLOG DONE: 8700 
+8:29:20 AM | INFO : 08:29:20:081  - CloudData  - SyncSLogs  - SLOG DONE: 8750 
+8:29:20 AM | INFO : 08:29:20:348  - CloudData  - SyncSLogs  - SLOG DONE: 8800 
+8:29:20 AM | INFO : 08:29:20:799  - CloudData  - SyncSLogs  - SLOG DONE: 8850 
+8:29:21 AM | INFO : 08:29:21:050  - CloudData  - SyncSLogs  - SLOG DONE: 8900 
+8:29:21 AM | INFO : 08:29:21:319  - CloudData  - SyncSLogs  - SLOG DONE: 8950 
+8:29:21 AM | INFO : 08:29:21:824  - CloudData  - SyncSLogs  - SLOG DONE: 9000 
+8:29:22 AM | INFO : 08:29:22:337  - CloudData  - SyncSLogs  - SLOG DONE: 9050 
+8:29:22 AM | INFO : 08:29:22:847  - CloudData  - SyncSLogs  - SLOG DONE: 9100 
+8:29:23 AM | INFO : 08:29:23:358  - CloudData  - SyncSLogs  - SLOG DONE: 9150 
+8:29:23 AM | INFO : 08:29:23:872  - CloudData  - SyncSLogs  - SLOG DONE: 9200 
+8:29:24 AM | INFO : 08:29:24:122  - CloudData  - SyncSLogs  - SLOG DONE: 9250 
+8:29:24 AM | INFO : 08:29:24:590  - CloudData  - SyncSLogs  - SLOG DONE: 9300 
+8:29:25 AM | INFO : 08:29:25:102  - CloudData  - SyncSLogs  - SLOG DONE: 9350 
+8:29:25 AM | INFO : 08:29:25:613  - CloudData  - SyncSLogs  - SLOG DONE: 9400 
+8:29:26 AM | INFO : 08:29:26:227  - CloudData  - SyncSLogs  - SLOG DONE: 9450 
+8:29:26 AM | INFO : 08:29:26:474  - CloudData  - SyncSLogs  - SLOG DONE: 9500 
+8:29:26 AM | INFO : 08:29:26:942  - CloudData  - SyncSLogs  - SLOG DONE: 9550 
+8:29:27 AM | INFO : 08:29:27:457  - CloudData  - SyncSLogs  - SLOG DONE: 9600 
+8:29:27 AM | INFO : 08:29:27:967  - CloudData  - SyncSLogs  - SLOG DONE: 9650 
+8:29:28 AM | INFO : 08:29:28:478  - CloudData  - SyncSLogs  - SLOG DONE: 9700 
+8:29:28 AM | INFO : 08:29:28:894  - CloudData  - SyncSLogs  - SLOG DONE: 9750 
+8:29:29 AM | INFO : 08:29:29:403  - CloudData  - SyncSLogs  - SLOG DONE: 9800 
+8:29:29 AM | INFO : 08:29:29:640  - CloudData  - SyncSLogs  - SLOG DONE: 9850 
+8:29:30 AM | INFO : 08:29:30:116  - CloudData  - SyncSLogs  - SLOG DONE: 9900 
+8:29:30 AM | INFO : 08:29:30:384  - CloudData  - SyncSLogs  - SLOG DONE: 9950 
+8:29:30 AM | INFO : 08:29:30:836  - CloudData  - SyncSLogs  - SLOG DONE: 10000 
+8:29:31 AM | INFO : 08:29:31:349  - CloudData  - SyncSLogs  - SLOG DONE: 10050 
+8:29:31 AM | INFO : 08:29:31:859  - CloudData  - SyncSLogs  - SLOG DONE: 10100 
+8:29:32 AM | INFO : 08:29:32:372  - CloudData  - SyncSLogs  - SLOG DONE: 10150 
+8:29:32 AM | INFO : 08:29:32:881  - CloudData  - SyncSLogs  - SLOG DONE: 10200 
+8:29:33 AM | INFO : 08:29:33:129  - CloudData  - SyncSLogs  - SLOG DONE: 10250 
+8:29:33 AM | INFO : 08:29:33:600  - CloudData  - SyncSLogs  - SLOG DONE: 10300 
+8:29:34 AM | INFO : 08:29:34:111  - CloudData  - SyncSLogs  - SLOG DONE: 10350 
+8:29:34 AM | INFO : 08:29:34:623  - CloudData  - SyncSLogs  - SLOG DONE: 10400 
+8:29:35 AM | INFO : 08:29:35:048  - CloudData  - SyncSLogs  - SLOG DONE: 10450 
+8:29:35 AM | INFO : 08:29:35:483  - CloudData  - SyncSLogs  - SLOG DONE: 10500 
+8:29:35 AM | INFO : 08:29:35:958  - CloudData  - SyncSLogs  - SLOG DONE: 10550 
+8:29:36 AM | INFO : 08:29:36:264  - CloudData  - SyncSLogs  - SLOG DONE: 10600 
+8:29:36 AM | INFO : 08:29:36:877  - CloudData  - SyncSLogs  - SLOG DONE: 10650 
+8:29:37 AM | INFO : 08:29:37:094  - CloudData  - SyncSLogs  - SLOG DONE: 10700 
+8:29:37 AM | INFO : 08:29:37:593  - CloudData  - SyncSLogs  - SLOG DONE: 10750 
+8:29:38 AM | INFO : 08:29:38:105  - CloudData  - SyncSLogs  - SLOG DONE: 10800 
+8:29:38 AM | INFO : 08:29:38:617  - CloudData  - SyncSLogs  - SLOG DONE: 10850 
+8:29:38 AM | INFO : 08:29:38:858  - CloudData  - SyncSLogs  - SLOG DONE: 10900 
+8:29:39 AM | INFO : 08:29:39:334  - CloudData  - SyncSLogs  - SLOG DONE: 10950 
+8:29:39 AM | INFO : 08:29:39:578  - CloudData  - SyncSLogs  - SLOG DONE: 11000 
+8:29:40 AM | INFO : 08:29:40:052  - CloudData  - SyncSLogs  - SLOG DONE: 11050 
+8:29:40 AM | INFO : 08:29:40:563  - CloudData  - SyncSLogs  - SLOG DONE: 11100 
+8:29:40 AM | INFO : 08:29:40:857  - CloudData  - SyncSLogs  - SLOG DONE: 11150 
+8:29:41 AM | INFO : 08:29:41:384  - CloudData  - SyncSLogs  - SLOG DONE: 11200 
+8:29:42 AM | INFO : 08:29:42:143  - CloudData  - SyncSLogs  - SLOG DONE: 11250 
+8:29:42 AM | INFO : 08:29:42:600  - CloudData  - SyncSLogs  - SLOG DONE: 11300 
+8:29:42 AM | INFO : 08:29:42:946  - CloudData  - SyncSLogs  - SLOG DONE: 11350 
+8:29:43 AM | INFO : 08:29:43:381  - CloudData  - SyncSLogs  - SLOG DONE: 11400 
+8:29:43 AM | INFO : 08:29:43:810  - CloudData  - SyncSLogs  - SLOG DONE: 11450 
+8:29:44 AM | INFO : 08:29:44:248  - CloudData  - SyncSLogs  - SLOG DONE: 11500 
+8:29:44 AM | INFO : 08:29:44:763  - CloudData  - SyncSLogs  - SLOG DONE: 11550 
+8:29:45 AM | INFO : 08:29:45:067  - CloudData  - SyncSLogs  - SLOG DONE: 11600 
+8:29:45 AM | INFO : 08:29:45:584  - CloudData  - SyncSLogs  - SLOG DONE: 11650 
+8:29:45 AM | INFO : 08:29:45:865  - CloudData  - SyncSLogs  - SLOG DONE: 11700 
+8:29:46 AM | INFO : 08:29:46:402  - CloudData  - SyncSLogs  - SLOG DONE: 11750 
+8:29:46 AM | INFO : 08:29:46:912  - CloudData  - SyncSLogs  - SLOG DONE: 11800 
+8:29:47 AM | INFO : 08:29:47:188  - CloudData  - SyncSLogs  - SLOG DONE: 11850 
+8:29:47 AM | INFO : 08:29:47:630  - CloudData  - SyncSLogs  - SLOG DONE: 11900 
+8:29:48 AM | INFO : 08:29:48:140  - CloudData  - SyncSLogs  - SLOG DONE: 11950 
+8:29:48 AM | INFO : 08:29:48:653  - CloudData  - SyncSLogs  - SLOG DONE: 12000 
+8:29:49 AM | INFO : 08:29:49:081  - CloudData  - SyncSLogs  - SLOG DONE: 12050 
+8:29:49 AM | INFO : 08:29:49:574  - CloudData  - SyncSLogs  - SLOG DONE: 12100 
+8:29:50 AM | INFO : 08:29:50:087  - CloudData  - SyncSLogs  - SLOG DONE: 12150 
+8:29:50 AM | INFO : 08:29:50:342  - CloudData  - SyncSLogs  - SLOG DONE: 12200 
+8:29:50 AM | INFO : 08:29:50:804  - CloudData  - SyncSLogs  - SLOG DONE: 12250 
+8:29:51 AM | INFO : 08:29:51:319  - CloudData  - SyncSLogs  - SLOG DONE: 12300 
+8:29:51 AM | INFO : 08:29:51:583  - CloudData  - SyncSLogs  - SLOG DONE: 12350 
+8:29:52 AM | INFO : 08:29:52:035  - CloudData  - SyncSLogs  - SLOG DONE: 12400 
+8:29:52 AM | INFO : 08:29:52:548  - CloudData  - SyncSLogs  - SLOG DONE: 12450 
+8:29:52 AM | INFO : 08:29:52:857  - CloudData  - SyncSLogs  - SLOG DONE: 12500 
+8:29:53 AM | INFO : 08:29:53:283  - CloudData  - SyncSLogs  - SLOG DONE: 12550 
+8:29:53 AM | INFO : 08:29:53:877  - CloudData  - SyncSLogs  - SLOG DONE: 12600 
+8:29:54 AM | INFO : 08:29:54:387  - CloudData  - SyncSLogs  - SLOG DONE: 12650 
+8:29:54 AM | INFO : 08:29:54:693  - CloudData  - SyncSLogs  - SLOG DONE: 12700 
+8:29:55 AM | INFO : 08:29:55:209  - CloudData  - SyncSLogs  - SLOG DONE: 12750 
+8:29:55 AM | INFO : 08:29:55:719  - CloudData  - SyncSLogs  - SLOG DONE: 12800 
+8:29:55 AM | INFO : 08:29:55:973  - CloudData  - SyncSLogs  - SLOG DONE: 12850 
+8:29:56 AM | INFO : 08:29:56:234  - CloudData  - SyncSLogs  - SLOG DONE: 12900 
+8:29:56 AM | INFO : 08:29:56:743  - CloudData  - SyncSLogs  - SLOG DONE: 12950 
+8:29:57 AM | INFO : 08:29:57:255  - CloudData  - SyncSLogs  - SLOG DONE: 13000 
+8:29:57 AM | INFO : 08:29:57:767  - CloudData  - SyncSLogs  - SLOG DONE: 13050 
+8:29:58 AM | INFO : 08:29:58:281  - CloudData  - SyncSLogs  - SLOG DONE: 13100 
+8:29:58 AM | INFO : 08:29:58:589  - CloudData  - SyncSLogs  - SLOG DONE: 13150 
+8:29:59 AM | INFO : 08:29:59:097  - CloudData  - SyncSLogs  - SLOG DONE: 13200 
+8:29:59 AM | INFO : 08:29:59:609  - CloudData  - SyncSLogs  - SLOG DONE: 13250 
+8:30:00 AM | INFO : 08:30:00:121  - CloudData  - SyncSLogs  - SLOG DONE: 13300 
+8:30:00 AM | INFO : 08:30:00:635  - CloudData  - SyncSLogs  - SLOG DONE: 13350 
+8:30:00 AM | INFO : 08:30:00:882  - CloudData  - SyncSLogs  - SLOG DONE: 13400 
+8:30:01 AM | INFO : 08:30:01:189  - CloudData  - SyncSLogs  - SLOG DONE: 13450 
+8:30:01 AM | INFO : 08:30:01:657  - CloudData  - SyncSLogs  - SLOG DONE: 13500 
+8:30:01 AM | INFO : 08:30:01:901  - CloudData  - SyncSLogs  - SLOG DONE: 13550 
+8:30:02 AM | INFO : 08:30:02:376  - CloudData  - SyncSLogs  - SLOG DONE: 13600 
+8:30:02 AM | INFO : 08:30:02:888  - CloudData  - SyncSLogs  - SLOG DONE: 13650 
+8:30:03 AM | INFO : 08:30:03:399  - CloudData  - SyncSLogs  - SLOG DONE: 13700 
+8:30:03 AM | INFO : 08:30:03:675  - CloudData  - SyncSLogs  - SLOG DONE: 13750 
+8:30:04 AM | INFO : 08:30:04:115  - CloudData  - SyncSLogs  - SLOG DONE: 13800 
+8:30:04 AM | INFO : 08:30:04:626  - CloudData  - SyncSLogs  - SLOG DONE: 13850 
+8:30:05 AM | INFO : 08:30:05:138  - CloudData  - SyncSLogs  - SLOG DONE: 13900 
+8:30:05 AM | INFO : 08:30:05:652  - CloudData  - SyncSLogs  - SLOG DONE: 13950 
+8:30:06 AM | INFO : 08:30:06:163  - CloudData  - SyncSLogs  - SLOG DONE: 14000 
+8:30:06 AM | INFO : 08:30:06:682  - CloudData  - SyncSLogs  - SLOG DONE: 14050 
+8:30:07 AM | INFO : 08:30:07:187  - CloudData  - SyncSLogs  - SLOG DONE: 14100 
+8:30:07 AM | INFO : 08:30:07:699  - CloudData  - SyncSLogs  - SLOG DONE: 14150 
+8:30:08 AM | INFO : 08:30:08:008  - CloudData  - SyncSLogs  - SLOG DONE: 14200 
+8:30:08 AM | INFO : 08:30:08:519  - CloudData  - SyncSLogs  - SLOG DONE: 14250 
+8:30:08 AM | INFO : 08:30:08:776  - CloudData  - SyncSLogs  - SLOG DONE: 14300 
+8:30:09 AM | INFO : 08:30:09:340  - CloudData  - SyncSLogs  - SLOG DONE: 14350 
+8:30:09 AM | INFO : 08:30:09:841  - CloudData  - SyncSLogs  - SLOG DONE: 14400 
+8:30:10 AM | INFO : 08:30:10:270  - CloudData  - SyncSLogs  - SLOG DONE: 14450 
+8:30:10 AM | INFO : 08:30:10:704  - CloudData  - SyncSLogs  - SLOG DONE: 14500 
+8:30:11 AM | INFO : 08:30:11:024  - CloudData  - SyncSLogs  - SLOG DONE: 14550 
+8:30:11 AM | INFO : 08:30:11:042  - CloudData  - syncSlogs  - No syncSlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:30:11 AM | INFO : 08:30:11:043  - CloudData  - syncSlogs  - COMPLETED: 14550 records 
+8:30:11 AM | INFO : 08:30:11:086  - log-service  - updateCloudSyncSlog  - Updated cloud_sync status to 'done' for 14509 S-Logs 
+8:30:11 AM | INFO : 08:30:11:087  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:099  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+8:30:11 AM | INFO : 08:30:11:103  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+8:30:11 AM | INFO : 08:30:11:441  - CloudData  - syncS_logStatus  - SLOG STATUS DONE: 50 
+8:30:11 AM | INFO : 08:30:11:442  - CloudData  - syncS_logStatus  - No syncS_logStatus with 'cloud_sync' status pending. Sync operation completed. 
+8:30:11 AM | INFO : 08:30:11:443  - CloudData  - syncS_logStatus  - COMPLETED: 50 records 
+8:30:11 AM | INFO : 08:30:11:445  - log-service  - updateS_LogsStatusByCloudSync  - Updated s_logStatus to 'done' for project_id=1 
+8:30:11 AM | INFO : 08:30:11:447  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:455  - CloudData  - syncTableLimits  - No syncTableLimits with 'cloud_sync' status pending. Sync operation aborted. 
+8:30:11 AM | INFO : 08:30:11:456  - CloudData  - syncTableLimits  - COMPLETED: 0 records 
+8:30:11 AM | INFO : 08:30:11:457  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:474  - CloudData  - syncAvgTLog ===  - No syncAvgTLog with 'cloud_sync' status pending. Sync operation aborted. 
+8:30:11 AM | INFO : 08:30:11:474  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:484  - CloudData  - syncTiltViewLogs  - No syncTiltViewLogs with 'cloud_sync' status pending. Sync operation aborted. 
+8:30:11 AM | INFO : 08:30:11:484  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:528  - CloudData  - syncTlogs  - No syncTlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:30:11 AM | INFO : 08:30:11:529  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:30:11 AM | INFO : 08:30:11:530  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:30:11 AM | INFO : 08:30:11:530  - CloudData  - syncWeldParameter  - No WeldParameter with 'cloud_sync' status pending. Sync operation aborted. 
+8:30:11 AM | INFO : 08:30:11:530  - CheckInternet  - fetchData  - fetchData function called 
+8:30:11 AM | INFO : 08:30:11:530  - CheckInternet  - fetchData  - START, FROM=true 
+8:30:11 AM | INFO : 08:30:11:592  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:30:11 AM | INFO : 08:30:11:592  - CheckInternet  - fetchData  - Data sync state: true 
+8:30:11 AM | INFO : 08:30:11:592  - CheckInternet  - fetchData  - SETTING: DONE 
+8:30:11 AM | INFO : 08:30:11:595  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"DONE"} 
+8:30:11 AM | INFO : 08:30:11:600  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+8:32:38 AM | INFO : 08:32:38:821  - Checkinternet  - useEffect  - Triggering syncData every 30 minutes 
+8:32:38 AM | INFO : 08:32:38:826  - CheckInternet  - syncData  - syncData function called 
+8:32:38 AM | INFO : 08:32:38:829  - CheckInternet  - syncData  - SYNCING STARTED : 1 
+8:32:38 AM | INFO : 08:32:38:832  - CheckInternet  - SyncData  - Syncing data for project ID: 1 
+8:32:38 AM | INFO : 08:32:38:834  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:851  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"IN-PROGRESS"} 
+8:32:38 AM | INFO : 08:32:38:861  - MainScreenHeader  - useFocusEffect  - Keep awake active 
+8:32:38 AM | INFO : 08:32:38:867  - CloudData  - syncProjects  - No syncProjects data with 'cloud_sync' status pending. Sync operation aborted. 
+8:32:38 AM | INFO : 08:32:38:867  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:873  - CloudData  - syncSlogs  - No syncSlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:32:38 AM | INFO : 08:32:38:874  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:875  - CloudData  - syncS_logStatus  - No syncS_logStatus with 'cloud_sync' status pending. Sync operation completed. 
+8:32:38 AM | INFO : 08:32:38:876  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:877  - CloudData  - syncTableLimits  - No syncTableLimits with 'cloud_sync' status pending. Sync operation aborted. 
+8:32:38 AM | INFO : 08:32:38:877  - CloudData  - syncTableLimits  - COMPLETED: 0 records 
+8:32:38 AM | INFO : 08:32:38:878  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:893  - CloudData  - syncAvgTLog ===  - No syncAvgTLog with 'cloud_sync' status pending. Sync operation aborted. 
+8:32:38 AM | INFO : 08:32:38:894  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:904  - CloudData  - syncTiltViewLogs  - No syncTiltViewLogs with 'cloud_sync' status pending. Sync operation aborted. 
+8:32:38 AM | INFO : 08:32:38:904  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:945  - CloudData  - syncTlogs  - No syncTlogs with 'cloud_sync' status pending. Sync operation completed. 
+8:32:38 AM | INFO : 08:32:38:945  - CloudData  - setInProgress  - SETTING: IN-PROGRESS 
+8:32:38 AM | INFO : 08:32:38:946  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:32:38 AM | INFO : 08:32:38:946  - CloudData  - syncWeldParameter  - No WeldParameter with 'cloud_sync' status pending. Sync operation aborted. 
+8:32:38 AM | INFO : 08:32:38:947  - CheckInternet  - fetchData  - fetchData function called 
+8:32:38 AM | INFO : 08:32:38:947  - CheckInternet  - fetchData  - START, FROM=true 
+8:32:39 AM | INFO : 08:32:39:008  - weld-parameter-service  - getAllWeldParametersByProjectId  - No Weld Parameters data found 
+8:32:39 AM | INFO : 08:32:39:008  - CheckInternet  - fetchData  - Data sync state: true 
+8:32:39 AM | INFO : 08:32:39:008  - CheckInternet  - fetchData  - SETTING: DONE 
+8:32:39 AM | INFO : 08:32:39:011  - MainScreenHeader  - useEffect  - cloudSyncSelector: {"1":"DONE"} 
+8:32:39 AM | INFO : 08:32:39:014  - MainScreenHeader  - useFocusEffect  - Keep awake deactivated 
+8:33:06 AM | INFO : 08:33:06:064  - MainScreen  - liveStations useEffect  - updating Station data 
+8:33:06 AM | INFO : 08:33:06:067  - projectMaster-service  - IWM  -   [{"IWM":"true"}] 
+8:33:11 AM | INFO : 08:33:11:717  - CustomSiderbarMenu  - appStateListener  - inactive 
+8:33:11 AM | INFO : 08:33:11:719  - MainScreen  - handleAppStateChange  - appState : active, nextAppState : inactive 

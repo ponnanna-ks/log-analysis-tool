@@ -7,12 +7,11 @@ import shutil
 
 # Define arrays of keywords for different types of events
 PROCESSING_KEYWORDS = [
-    'socket onopen', 'parseLogs', 'saveAllLogs', 'welding_system',
-    'saveSLogs', 'saveTLogs', 'calculateTiltViewLogs', 'saveTiltViewLogs', 
-    'calculateAvgTLogs', 'saveAvgTLogs', 'insertJobNumberToTLogs', 
-    'insertJobNumberToAvgTLogs', 'JOB NUMBER to AvgTlogs', 'JOB NUMBER to TLogs'
+    'socket onopen','welding_system',
 ]
-STATUS_KEYWORDS = ['startCalculating', 'Rowcount', 'Rows affected', 'updating the status']
+STATUS_KEYWORDS = ['CalculatingStatusModal  - startCalculating  - Start', 'Rowcount', 'Rows affected', 'InsertsLogStatus - updating the status']
+ERROR_KEYWORDS = ['ERROR :']
+EXCLUDE_ERROR_KEYWORDS = ['updateAvgStatus', 'wrongData']
 
 def create_output_folder(log_file_path):
     # Get the log file name without extension
@@ -116,6 +115,24 @@ def parse_logs(file_path):
                     total_status_time += (end_time - start_time).total_seconds()
                     current_status = []
 
+        # Error events - Process separately from status events
+        if 'ERROR :' in line:
+            # Skip excluded error types
+            if any(exclude in line for exclude in EXCLUDE_ERROR_KEYWORDS):
+                continue
+            
+            # Create a new status group for this error if we're not in one
+            if not current_status:
+                current_status = [{'time': time, 'log': line}]
+            else:
+                # Add to current status group
+                current_status.append({'time': time, 'log': line})
+                
+                # If this is a new error line, create a new status group
+                if 'ERROR :' in line:
+                    status_events.append(current_status)
+                    current_status = [{'time': time, 'log': line}]
+
     # Add any remaining events
     if current_processing:
         processing_events.append(current_processing)
@@ -139,140 +156,243 @@ def format_output(processing_events, status_events, output_folder):
     
     # Process events for processing sheet
     processing_data = []
+    total_logs_downloaded = 0
+    total_processing_time_seconds = 0
+    total_status_time_seconds = 0
+    processed_errors = set()  # Track processed error messages to avoid duplicates
+    
+    # Function to format seconds to HH:MM:SS
+    def format_duration(seconds):
+        hours = int(seconds // 3600)
+        minutes = int((seconds % 3600) // 60)
+        seconds = int(seconds % 60)
+        return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+    
+    # Process download events
     for i, event_group in enumerate(processing_events, 1):
-        start_time = parse_time(event_group[0]['time'])
-        end_time = parse_time(event_group[-1]['time'])
-        total_duration = end_time - start_time
+        # Initialize session total logs downloaded
+        session_logs_downloaded = 0
         
-        # Add each step with its duration
-        for j, event in enumerate(event_group):
+        # Process each event in the group
+        for event in event_group:
             current_time = parse_time(event['time'])
-            if j > 0:
-                prev_time = parse_time(event_group[j-1]['time'])
-                step_duration = current_time - prev_time
-            else:
-                step_duration = None
             
-            # Determine process name based on log content
-            log_content = event['log'].lower()
-            if 'socket onopen' in log_content:
+            # Determine process name
+            if 'socket onopen' in event['log']:
                 process_name = 'multiple download - acknowledge'
-            elif 'parselogs' in log_content:
-                process_name = 'multiple download - parseLogs'
-            elif 'savealllogs' in log_content:
-                process_name = 'multiple download - saveLogs'
-            elif 'welding_system' in log_content:
+                # Extract logs downloaded count
+                match = re.search(r'e.data:\s*(\d+)', event['log'])
+                if match:
+                    logs_downloaded = int(match.group(1))
+                    session_logs_downloaded += logs_downloaded
+                    total_logs_downloaded += logs_downloaded
+            elif 'welding_system' in event['log']:
                 process_name = 'multiple download - saveLogs Completed'
             else:
-                # Extract process name from log service events
-                process_parts = event['log'].split(' - ')
-                if len(process_parts) >= 3:
-                    process_name = process_parts[-2].strip()
-                else:
-                    process_name = 'Unknown Process'
+                process_name = 'Unknown Process'
             
             processing_data.append({
-                'timestamp': current_time,
-                'id': i if j == 0 else '',
+                'id': i,
+                'event type': 'download',
                 'process name': process_name,
                 'log': event['log'].split('|')[-1].strip(),
                 'time': event['time'],
-                'step duration': str(step_duration) if step_duration else ''
+                'logs downloaded': logs_downloaded if 'socket onopen' in event['log'] else ''
             })
         
-        # Add total duration
+        # Add session totals if we found any download events
+        if session_logs_downloaded > 0:
+            # Get first and last event times for this session
+            first_event = event_group[0]
+            last_event = event_group[-1]
+            start_time = parse_time(first_event['time'])
+            end_time = parse_time(last_event['time'])
+            total_duration = (end_time - start_time).total_seconds()
+            total_processing_time_seconds += total_duration
+            
+            # Add total processing time
+            processing_data.append({
+                'id': i,
+                'event type': 'download',
+                'process name': 'total processing time',
+                'log': f'From {first_event["time"]} to {last_event["time"]}',
+                'time': format_duration(total_duration),
+                'logs downloaded': ''
+            })
+            
+            # Add total logs downloaded for this session
+            processing_data.append({
+                'id': i,
+                'event type': 'download',
+                'process name': 'total log downloaded',
+                'log': '',
+                'time': '',
+                'logs downloaded': session_logs_downloaded
+            })
+            
+            # Add empty row after download session
+            processing_data.append({})
+    
+    # Process status events
+    status_id = len(processing_events) + 1
+    for i, event_group in enumerate(status_events, 1):
+        # Add status calculation events
+        start_event = next((e for e in event_group if 'startCalculating' in e['log']), None)
+        if start_event:
+            processing_data.append({
+                'id': status_id,
+                'event type': 'status',
+                'process name': 'Status calculation start',
+                'log': start_event['log'].split('|')[-1].strip(),
+                'time': start_event['time'],
+                'logs downloaded': ''
+            })
+        
+        # Add status update events
+        update_event = next((e for e in event_group if 'updating the status' in e['log']), None)
+        if update_event:
+            processing_data.append({
+                'id': status_id,
+                'event type': 'status',
+                'process name': 'status update',
+                'log': update_event['log'].split('|')[-1].strip(),
+                'time': update_event['time'],
+                'logs downloaded': ''
+            })
+        
+        # Add error events
+        error_events = []
+        for event in event_group:
+            if 'ERROR :' in event['log'] and not any(exclude in event['log'] for exclude in EXCLUDE_ERROR_KEYWORDS):
+                error_events.append(event)
+        
+        if error_events:
+            # Add empty row before errors only if there were status events
+            if start_event or update_event:
+                processing_data.append({})
+            
+            # Process each error event
+            for error_event in error_events:
+                # Extract error components
+                error_time = error_event['time']
+                error_msg = error_event['log'].split('|')[-1].strip()
+                
+                # Create a unique identifier using time, service name, operation, and message
+                # This helps distinguish between different errors even if they have the same message
+                error_parts = error_msg.split(' - ')
+                service_name = error_parts[1] if len(error_parts) > 1 else ''
+                operation = error_parts[2] if len(error_parts) > 2 else ''
+                
+                error_id = f"{error_time}_{service_name}_{operation}_{error_msg}"
+                
+                # If we haven't processed this exact error before
+                if error_id not in processed_errors:
+                    processed_errors.add(error_id)
+                    
+                    # If the error message contains JSON, extract just the message part
+                    if 'message' in error_msg:
+                        try:
+                            import json
+                            error_dict = json.loads(error_msg)
+                            error_msg = error_dict.get('message', error_msg)
+                        except json.JSONDecodeError:
+                            pass
+                    
+                    processing_data.append({
+                        'id': status_id,
+                        'event type': 'error',
+                        'process name': 'error occurred',
+                        'log': error_msg,
+                        'time': error_time,
+                        'logs downloaded': ''
+                    })
+            
+            # Add empty row after errors only if there are more events
+            if i < len(status_events):
+                processing_data.append({})
+        
+        # Add total status processing time if we have both start and update events
+        if start_event and update_event:
+            start_time = parse_time(start_event['time'])
+            end_time = parse_time(update_event['time'])
+            total_duration = (end_time - start_time).total_seconds()
+            total_status_time_seconds += total_duration
+            
+            processing_data.append({
+                'id': status_id,
+                'event type': 'status',
+                'process name': 'total status calculation time',
+                'log': f'From {start_event["time"]} to {update_event["time"]}',
+                'time': format_duration(total_duration),
+                'logs downloaded': ''
+            })
+            
+            # Add empty row only if this isn't the last status session
+            if i < len(status_events):
+                processing_data.append({})
+            status_id += 1
+    
+    # Add summary section
+    if processing_events:
+        # Calculate overall processing time from first download to last download
+        first_download = processing_events[0][0]
+        last_download = processing_events[-1][-1]
+        start_time = parse_time(first_download['time'])
+        end_time = parse_time(last_download['time'])
+        overall_duration = (end_time - start_time).total_seconds()
+        
+        processing_data.append({})  # Empty row for spacing
         processing_data.append({
-            'timestamp': end_time,
-            'id': '',
-            'process name': 'Total processing time',
-            'log': '',
-            'time': str(total_duration),
-            'step duration': ''
-        })
-        processing_data.append({
-            'timestamp': end_time,
-            'id': '',
-            'process name': '',
+            'id': 'Summary',
+            'event type': '',
+            'process name': 'Total logs downloaded',
             'log': '',
             'time': '',
-            'step duration': ''
+            'logs downloaded': total_logs_downloaded
         })
-
-    # Process status events
-    status_data = []
-    for i, event_group in enumerate(status_events, 1):
-        start_time = parse_time(event_group[0]['time'])
-        end_time = parse_time(event_group[-1]['time'])
-        duration = end_time - start_time
-        
-        for j, event in enumerate(event_group):
-            current_time = parse_time(event['time'])
-            if j > 0:
-                prev_time = parse_time(event_group[j-1]['time'])
-                step_duration = current_time - prev_time
-            else:
-                step_duration = None
-
-            process_name = 'Status calculation start' if 'startCalculating' in event['log'] else \
-                          'total tlogs in project' if 'Rowcount' in event['log'] else \
-                          'setIncomplete flag' if 'setIncomplete' in event['log'] else \
-                          'status update'
-            
-            status_data.append({
-                'timestamp': current_time,
-                'id': i if j == 0 else '',
-                'process name': process_name,
-                'log': event['log'].split('|')[-1].strip(),
-                'time': event['time'],
-                'step duration': str(step_duration) if step_duration else ''
-            })
-        
-        # Add duration
-        status_data.append({
-            'timestamp': end_time,
-            'id': '',
+        processing_data.append({
+            'id': 'Summary',
+            'event type': '',
+            'process name': 'Total processing time',
+            'log': f'From {first_download["time"]} to {last_download["time"]}',
+            'time': format_duration(overall_duration),
+            'logs downloaded': ''
+        })
+        processing_data.append({
+            'id': 'Summary',
+            'event type': '',
             'process name': 'Total status calculation time',
             'log': '',
-            'time': str(duration),
-            'step duration': ''
+            'time': format_duration(total_status_time_seconds),
+            'logs downloaded': ''
         })
-        status_data.append({
-            'timestamp': end_time,
-            'id': '',
-            'process name': '',
+        processing_data.append({
+            'id': 'Summary',
+            'event type': '',
+            'process name': 'Total error count',
             'log': '',
             'time': '',
-            'step duration': ''
+            'logs downloaded': len(processed_errors)
         })
-
-    # Create DataFrames
-    processing_df = pd.DataFrame(processing_data)
-    status_df = pd.DataFrame(status_data)
     
-    # Sort by timestamp and drop timestamp column
-    processing_df = processing_df.sort_values('timestamp').drop('timestamp', axis=1)
-    status_df = status_df.sort_values('timestamp').drop('timestamp', axis=1)
+    # Create DataFrame and write to Excel
+    df = pd.DataFrame(processing_data)
+    df.to_excel(writer, sheet_name='Analysis', index=False)
     
-    # Write to Excel
-    processing_df.to_excel(writer, sheet_name='Processing Events', index=False)
-    status_df.to_excel(writer, sheet_name='Status Events', index=False)
+    # Auto-adjust column widths
+    worksheet = writer.sheets['Analysis']
+    for idx, col in enumerate(df.columns):
+        max_length = max(
+            df[col].astype(str).apply(len).max(),
+            len(col)
+        )
+        worksheet.set_column(idx, idx, max_length + 2)
     
-    # Auto-adjust columns' width for both sheets
-    for sheet_name in writer.sheets:
-        worksheet = writer.sheets[sheet_name]
-        df = processing_df if sheet_name == 'Processing Events' else status_df
-        for idx, col in enumerate(df.columns):
-            max_length = max(
-                df[col].astype(str).apply(len).max(),
-                len(col)
-            )
-            worksheet.set_column(idx, idx, max_length + 2)
-
     writer.close()
     return excel_path
 
 if __name__ == '__main__':
-    file_path = 'EventLogs_May20-2025.txt'
+    file_path = 'EventLogs_Jun06-2025.txt'
     
     # Create output folder and copy log file
     output_folder = create_output_folder(file_path)
